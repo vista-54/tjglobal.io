@@ -7,6 +7,54 @@
   font-family: 'Relative Bold', Arial, sans-serif;
   font-weight: 400; }
 
+.main-link {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-family: 'Relative Medium', Arial, sans-serif;
+  font-size: 25px;
+  border-bottom: 0px solid #ffffff;
+  color: white;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer; }
+
+.animated::before {
+  background-color: #fff;
+  bottom: -.55556rem;
+  content: '';
+  height: 3px;
+  left: -20px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  transition: .2s ease-in-out;
+  width: 0; }
+
+.animated:hover::before {
+  transition: .2s ease-in-out;
+  width: 64px; }
+
+header {
+  height: 86px;
+  width: 100%;
+  position: fixed;
+  background: transparent;
+  z-index: 10000000; }
+  header .header-site-content .header-site-content-logo {
+    float: left; }
+  header .header-site-content .header-site-content-menu {
+    float: right;
+    margin-right: 15px; }
+    header .header-site-content .header-site-content-menu ul li {
+      float: left;
+      margin-left: 35px;
+      display: block;
+      margin-top: 15px;
+      transition: .3s; }
+    header .header-site-content .header-site-content-menu ul li:hover {
+      margin-top: 11px; }
+
 body {
   margin: 0;
   background: white;
@@ -121,7 +169,11 @@ body {
             max-width: 700px;
             color: white;
             text-align: center;
-            margin: 30px auto 0; }
+            margin: 50px auto; }
+      body .content .content-container article .fourth {
+        position: static; }
+        body .content .content-container article .fourth div {
+          position: absolute; }
   body .footer-site {
     height: auto;
     z-index: 100;
@@ -132,5 +184,23 @@ body {
     padding-top: 3.33333rem;
     text-align: left;
     width: 100%; }
+
+footer .footer-site-logo {
+  margin: 30px auto 0;
+  text-align: center; }
+footer .footer-site-contact {
+  margin-bottom: 150px; }
+  footer .footer-site-contact div {
+    width: 33.3333%;
+    height: 20px;
+    background: #ffffff;
+    float: left; }
+    footer .footer-site-contact div a {
+      display: inline-block;
+      color: rgba(232, 230, 229, 0.5);
+      font-weight: 400;
+      font-family: 'Relative Medium', Arial, sans-serif;
+      font-size: .88889rem;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

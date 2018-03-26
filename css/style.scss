@@ -1,3 +1,4 @@
+//componets
 
 .main-title {
   color: #fff;
@@ -7,6 +8,78 @@
   margin-top: 2rem;
   font-family: 'Relative Bold', Arial, sans-serif;
   font-weight: 400;
+}
+
+.main-link {
+
+  text: {
+    decoration: none;
+    overflow: ellipsis;
+  }
+  font: {
+    weight: 400;
+    family: 'Relative Medium', Arial, sans-serif;
+    size: 25px;
+  }
+  border-bottom: 0px solid #ffffff;
+  color: white;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.animated::before {
+  background-color: #fff;
+  bottom: -.55556rem;
+  //bottom: -.27778rem;
+  content: '';
+  height: 3px;
+  left: -20px;
+  margin: auto;
+  //margin-left: -20px;
+  position: absolute;
+  right: 0;
+  transition: .2s ease-in-out;
+  width: 0
+}
+
+.animated:hover::before {
+  transition: .2s ease-in-out;
+  width: 64px;
+}
+
+//landing
+
+header {
+  height: 86px;
+  width: 100%;
+  position: fixed;
+  background: transparent;
+  z-index: 10000000;
+  .header-site-content {
+    .header-site-content-logo {
+      float: left;
+    }
+    .header-site-content-menu {
+      float: right;
+      margin-right: 15px;
+      ul {
+        li {
+          float: left;
+          margin-left: 35px;
+          display: block;
+          margin-top: 15px;
+          transition: .3s;
+          a {
+
+          }
+        }
+        li:hover {
+          margin-top: 11px;
+        }
+      }
+    }
+  }
 }
 
 body {
@@ -30,11 +103,11 @@ body {
         width: 100%;
         z-index: 0;
       }
-      .content-container-main-background{
+      .content-container-main-background {
         height: 100vh;
         width: 100%;
         position: absolute;
-        background: rgba(0,0,0,0.5);
+        background: rgba(0, 0, 0, 0.5);
         z-index: 1;
 
       }
@@ -65,6 +138,7 @@ body {
     .content-container {
       height: 100vh;
       width: 100%;
+
       h1 {
         //font:{
         //  size: 40px}
@@ -75,12 +149,11 @@ body {
         width: 100%;
         height: 40px;
       }
+
       .content-container-background {
         height: 100vh;
         width: 100%;
         position: absolute;
-
-        //filter: blur(8px);
         div {
           height: 100%;
           width: 100%;
@@ -128,6 +201,7 @@ body {
           attachment: fixed;
         }
       }
+
       article {
         height: 100vh;
         overflow: hidden;
@@ -160,49 +234,16 @@ body {
               max-width: 700px;
               color: white;
               text-align: center;
-              margin: 30px auto 0;
+              margin: 50px auto;
             }
           }
         }
-        //& .first {
-        //  back {
-        //    height: 100vh;
-        //    width: 100%;
-        //    background: {
-        //      image: url('../content/img/legal-opinions.jpg');
-        //      size: cover;
-        //      repeat: no-repeat;
-        //      attachment: fixed;
-        //
-        //    }
-        //    filter: blur(5px);
-        //  }
-        //
-        //  //background-color: rgb(0, 35, 55);
-        //  h1 {
-        //    //top: -36%
-        //  }
-        //  h1, p {
-        //    color: white !important;
-        //  }
-        //
-        //}
-        //& .second {
-        //  background-color: rgb(255, 55, 80);
-        //  h1, p {
-        //    color: black;
-        //  }
-        //}
-        //& .third {
-        //  background-color: rgb(0, 220, 190);
-        //
-        //}
-        //& .fourth {
-        //  background-color: rgb(255, 200, 0);
-        //}
-        //& .fifth {
-        //  background-color: rgb(0, 220, 90);
-        //}
+        & .fourth {
+          position: static;
+          div{
+            position: absolute;
+          }
+        }
       }
 
     }
@@ -221,3 +262,33 @@ body {
     width: 100%;
   }
 }
+
+footer {
+  .footer-site-logo {
+    margin: 30px auto 0;
+    text-align: center;
+  }
+  .footer-site-contact {
+    margin-bottom: 150px;
+    div {
+      width: 33.3333%;
+      height: 20px;
+      background: #ffffff;
+      float: left;
+      a {
+        display: inline-block;
+        color: rgba(232, 230, 229, .5);
+        //display: none;
+        font-weight: 400;
+        font-family: 'Relative Medium', Arial, sans-serif;
+        font-size: .88889rem;
+        text-decoration: none;
+      }
+    }
+    .footer-site-contact-email {
+
+    }
+  }
+}
+
+//media
