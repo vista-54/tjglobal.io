@@ -99,7 +99,7 @@ body {
     width: 100%; }
     body .content .content-container h1 {
       position: absolute;
-      top: -153%;
+      top: -110%;
       color: white;
       width: 100%;
       height: 40px; }
@@ -168,7 +168,9 @@ body {
             max-width: 700px;
             color: white;
             text-align: center;
-            margin: 50px auto; }
+            margin: 50px auto;
+            font-family: 'Relative Medium', Arial, sans-serif;
+            font-size: 16px; }
       body .content .content-container article .fourth {
         position: static; }
         body .content .content-container article .fourth div {
