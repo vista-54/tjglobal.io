@@ -35,30 +35,29 @@
   transition: .2s ease-in-out;
   width: 64px; }
 
-header {
-  height: 86px;
-  width: 100%;
-  position: fixed;
-  background: transparent;
-  z-index: 10000000; }
-  header .header-site-content .header-site-content-logo {
-    float: left; }
-  header .header-site-content .header-site-content-menu {
-    float: right;
-    margin-right: 15px; }
-    header .header-site-content .header-site-content-menu ul li {
-      float: left;
-      margin-left: 35px;
-      display: block;
-      margin-top: 15px;
-      transition: .3s; }
-    header .header-site-content .header-site-content-menu ul li:hover {
-      margin-top: 11px; }
-
 body {
   margin: 0;
   background: white;
   box-sizing: inherit; }
+  body .header-site {
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    z-index: 10000000; }
+    body .header-site .header-site-content .header-site-content-logo {
+      float: left; }
+    body .header-site .header-site-content .header-site-content-menu {
+      float: right;
+      margin-right: 15px; }
+      body .header-site .header-site-content .header-site-content-menu ul li {
+        float: left;
+        margin-left: 35px;
+        display: block;
+        margin-top: 15px;
+        transition: .3s; }
+      body .header-site .header-site-content .header-site-content-menu ul li:hover {
+        margin-top: 11px; }
   body .content .content-container-main {
     height: 100vh;
     overflow: hidden;
@@ -184,23 +183,64 @@ body {
     padding-top: 3.33333rem;
     text-align: left;
     width: 100%; }
-
-footer .footer-site-logo {
-  margin: 30px auto 0;
-  text-align: center; }
-footer .footer-site-contact {
-  margin-bottom: 150px; }
-  footer .footer-site-contact div {
-    width: 33.3333%;
-    height: 20px;
-    background: #ffffff;
-    float: left; }
-    footer .footer-site-contact div a {
-      display: inline-block;
-      color: rgba(232, 230, 229, 0.5);
-      font-weight: 400;
+    body .footer-site .footer-site-logo {
+      margin: 30px auto 0;
+      text-align: center; }
+    body .footer-site .footer-site-contact {
+      margin-bottom: 100px; }
+      body .footer-site .footer-site-contact div {
+        width: 33.3333%;
+        height: 20px;
+        background: transparent;
+        float: left; }
+        body .footer-site .footer-site-contact div a {
+          display: inline-block;
+          color: rgba(232, 230, 229, 0.5);
+          font-weight: 400;
+          font-family: 'Relative Medium', Arial, sans-serif;
+          font-size: 20px;
+          text-decoration: none; }
+      body .footer-site .footer-site-contact .footer-site-contact-email a {
+        margin-left: 50px; }
+      body .footer-site .footer-site-contact .footer-site-contact-social {
+        display: flex;
+        justify-content: center; }
+        body .footer-site .footer-site-contact .footer-site-contact-social div {
+          width: 300px;
+          display: flex;
+          justify-content: space-around; }
+          body .footer-site .footer-site-contact .footer-site-contact-social div a {
+            float: left;
+            font-size: 25px; }
+          body .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
+            color: #ff3750; }
+      body .footer-site .footer-site-contact .footer-site-contact-phone a {
+        margin-right: 50px;
+        float: right; }
+    body .footer-site .footer-site-license {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px; }
+      body .footer-site .footer-site-license div {
+        display: flex;
+        width: 600px;
+        justify-content: space-around; }
+        body .footer-site .footer-site-license div p, body .footer-site .footer-site-license div a {
+          float: left;
+          font-size: 14px;
+          font-family: 'Relative Medium', Arial, sans-serif;
+          color: rgba(232, 230, 229, 0.5);
+          text-align: center;
+          margin: 0;
+          text-decoration: none; }
+        body .footer-site .footer-site-license div a:first-child::after {
+          border-left: 1px solid rgba(232, 230, 229, 0.5); }
+    body .footer-site .footer-site-bottom {
+      text-align: center;
+      font-size: 14px;
       font-family: 'Relative Medium', Arial, sans-serif;
-      font-size: .88889rem;
-      text-decoration: none; }
+      color: rgba(232, 230, 229, 0.5);
+      margin-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
