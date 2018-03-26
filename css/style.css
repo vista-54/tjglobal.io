@@ -1,0 +1,119 @@
+.main-title {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400; }
+
+body {
+  margin: 0;
+  background: white;
+  box-sizing: inherit; }
+  body .content .content-container-main {
+    height: 100vh;
+    overflow: hidden;
+    position: relative; }
+    body .content .content-container-main video {
+      height: 100%;
+      left: 0;
+      object-fit: cover;
+      object-position: top center;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 0; }
+    body .content .content-container-main .content-container-main-content {
+      display: table;
+      height: 100%;
+      margin-bottom: 0;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+      body .content .content-container-main .content-container-main-content div {
+        display: table-cell;
+        vertical-align: middle; }
+        body .content .content-container-main .content-container-main-content div div {
+          margin: 0 auto;
+          max-width: 970px;
+          text-align: center;
+          width: 100%;
+          display: block; }
+  body .content .content-container {
+    height: 100vh;
+    width: 100%; }
+    body .content .content-container h1 {
+      position: absolute;
+      top: -153%;
+      color: white;
+      width: 100%;
+      height: 40px; }
+    body .content .content-container .content-container-background {
+      height: 100vh;
+      width: 100%;
+      position: absolute; }
+      body .content .content-container .content-container-background div {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5); }
+    body .content .content-container .first-section {
+      background-image: url("../content/img/forex.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+    body .content .content-container .second-section {
+      background-image: url("../content/img/psp.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+    body .content .content-container .third-section {
+      background-image: url("../content/img/banks.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+    body .content .content-container .fourth-section {
+      background-image: url("../content/img/legal-opinions.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+    body .content .content-container .fifth-section {
+      background-image: url("../content/img/legal-opinions.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; }
+    body .content .content-container article {
+      height: 100vh;
+      overflow: hidden;
+      position: relative; }
+      body .content .content-container article .content-container-block {
+        bottom: 0;
+        clip: rect(0, auto, auto, 0);
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 99999;
+        overflow: hidden; }
+        body .content .content-container article .content-container-block div {
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          bottom: 0;
+          display: table;
+          margin: auto;
+          right: 0;
+          text-align: center;
+          top: 140px;
+          width: 100%;
+          position: fixed;
+          z-index: 9999; }
+          body .content .content-container article .content-container-block div p {
+            max-width: 700px;
+            color: white;
+            text-align: center;
+            margin: 30px auto 0; }
+
+/*# sourceMappingURL=style.css.map */

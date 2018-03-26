@@ -1,0 +1,198 @@
+
+.main-title {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  background: white;
+  box-sizing: inherit;
+  .content {
+    .content-container-main {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      video {
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        object-position: top center;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+      }
+      .content-container-main-content {
+        display: table;
+        height: 100%;
+        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        div {
+          display: table-cell;
+          vertical-align: middle;
+
+          div {
+            margin: 0 auto;
+            max-width: 970px;
+            text-align: center;
+            width: 100%;
+            display: block;
+          }
+        }
+      }
+
+    }
+    .content-container {
+      height: 100vh;
+      width: 100%;
+      h1 {
+        //font:{
+        //  size: 40px}
+
+        position: absolute;
+        top: -153%;
+        color: white;
+        width: 100%;
+        height: 40px;
+      }
+      .content-container-background {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+
+        //filter: blur(8px);
+        div {
+          height: 100%;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.5);
+        }
+      }
+      & .first-section {
+        background: {
+          image: url('../content/img/forex.jpg');
+          size: cover;
+          repeat: no-repeat;
+          attachment: fixed;
+        }
+      }
+      & .second-section {
+        background: {
+          image: url('../content/img/psp.jpg');
+          size: cover;
+          repeat: no-repeat;
+          attachment: fixed;
+        }
+      }
+      & .third-section {
+        background: {
+          image: url('../content/img/banks.jpg');
+          size: cover;
+          repeat: no-repeat;
+          attachment: fixed;
+        }
+      }
+      & .fourth-section {
+        background: {
+          image: url('../content/img/legal-opinions.jpg');
+          size: cover;
+          repeat: no-repeat;
+          attachment: fixed;
+        }
+
+      }
+      & .fifth-section {
+        background: {
+          image: url('../content/img/legal-opinions.jpg');
+          size: cover;
+          repeat: no-repeat;
+          attachment: fixed;
+        }
+      }
+      article {
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        .content-container-block {
+          bottom: 0;
+          clip: rect(0, auto, auto, 0);
+          left: 0;
+          margin: 0 auto;
+          position: absolute;
+          right: 0;
+          top: 0;
+          height: 100vh;
+          width: 100%;
+          z-index: 99999;
+          overflow: hidden;
+          div {
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            bottom: 0;
+            display: table;
+            margin: auto;
+            right: 0;
+            text-align: center;
+            top: 140px;
+            width: 100%;
+            position: fixed;
+            z-index: 9999;
+            p {
+              max-width: 700px;
+              color: white;
+              text-align: center;
+              margin: 30px auto 0;
+            }
+          }
+        }
+        //& .first {
+        //  back {
+        //    height: 100vh;
+        //    width: 100%;
+        //    background: {
+        //      image: url('../content/img/legal-opinions.jpg');
+        //      size: cover;
+        //      repeat: no-repeat;
+        //      attachment: fixed;
+        //
+        //    }
+        //    filter: blur(5px);
+        //  }
+        //
+        //  //background-color: rgb(0, 35, 55);
+        //  h1 {
+        //    //top: -36%
+        //  }
+        //  h1, p {
+        //    color: white !important;
+        //  }
+        //
+        //}
+        //& .second {
+        //  background-color: rgb(255, 55, 80);
+        //  h1, p {
+        //    color: black;
+        //  }
+        //}
+        //& .third {
+        //  background-color: rgb(0, 220, 190);
+        //
+        //}
+        //& .fourth {
+        //  background-color: rgb(255, 200, 0);
+        //}
+        //& .fifth {
+        //  background-color: rgb(0, 220, 90);
+        //}
+      }
+
+    }
+  }
+}
