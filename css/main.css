@@ -52,7 +52,7 @@ body {
       margin-right: 15px; }
       body .header-site .header-site-content .header-site-content-menu ul li {
         float: left;
-        margin-left: 35px;
+        margin-left: 55px;
         display: block;
         margin-top: 15px;
         transition: .3s; }
@@ -88,12 +88,18 @@ body {
       body .content .content-container-main .content-container-main-content div {
         display: table-cell;
         vertical-align: middle; }
-        body .content .content-container-main .content-container-main-content div div {
+        body .content .content-container-main .content-container-main-content div div#anchor {
           margin: 0 auto;
           max-width: 970px;
           text-align: center;
           width: 100%;
           display: block; }
+          body .content .content-container-main .content-container-main-content div div#anchor a {
+            text-decoration: none;
+            color: white;
+            font-size: 60px;
+            position: absolute;
+            margin-top: 8%; }
   body .content .content-container {
     height: 100vh;
     width: 100%; }
@@ -245,4 +251,4 @@ body {
       color: rgba(232, 230, 229, 0.5);
       margin-bottom: 40px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

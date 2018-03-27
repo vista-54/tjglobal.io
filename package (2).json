@@ -1,0 +1,109 @@
+{
+  "name": "angular-seed",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A starter project for AngularJS",
+  "repository": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-ng-annotate": "^2.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-filter": "^1.0.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.1.0",
+    "gulp-install": "^1.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglify-es": "^1.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "sinon": "^1.17.6",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony"
+  },
+  "paths": {
+    "app": "./app/",
+    "html": "./app/**/*.html",
+    "js": [
+      "./app/app.js",
+      "./app/core/*.js",
+      "./app/core/blocks/**/*.js",
+      "./app/directives/**/*.js",
+      "./app/filters/**/*.js",
+      "./app/services/*.js",
+      "./app/templates/**/*.js",
+      "./app/factories/**/*.js"
+    ],
+    "css": [
+      "./app/content/css/*.css"
+    ],
+    "fonts": [],
+    "images": [
+      "./app/content/images/**/*",
+      "./app/img/**/*"
+    ],
+    "vendorjs": [
+      "./app/bower_components/angular/angular.js",
+      "./app/bower_components/angular-animate/angular-animate.js",
+      "./app/bower_components/angular-aria/angular-aria.js",
+      "./app/bower_components/angular-material/angular-material.js",
+      "./app/bower_components/angular-material-data-table/dist/md-data-table.js",
+      "./app/bower_components/angular-messages/angular-messages.js",
+      "./app/bower_components/angular-toastr/dist/angular-toastr.tpls.js",
+      "./app/bower_components/angular-ui-router/release/angular-ui-router.js",
+      "./app/bower_components/ngstorage/ngStorage.js",
+      "./app/bower_components/angular-ui-mask/dist/mask.js",
+      "./app/bower_components/v-accordion/dist/v-accordion.js",
+      "./app/bower_components/ng-file-upload/ng-file-upload.js",
+      "./app/bower_components/ng-img-crop/compile/minified/ng-img-crop.js",
+      "./app/bower_components/ng-youtube-embed/build/ng-youtube-embed.min.js"
+    ],
+    "vendorcss": [
+      "./app/bower_components/angular-toastr/dist/angular-toastr.css",
+      "./app/bower_components/v-accordion/dist/v-accordion.min.css",
+      "./app/bower_components/angular-material-data-table/dist/md-data-table.min.css",
+      "./app/bower_components/angular-material/angular-material.css",
+      "./app/bower_components/ng-img-crop/compile/minified/ng-img-crop.css"
+    ],
+    "scss": [
+      "./css/*.scss"
+//      "./app/components/**/*.scss",
+//      "./app/scss/*.scss",
+//      "./app/directives/**/*.scss",
+//      "./app/templates/**/*.scss"
+    ],
+    "build": "./build/"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+    "start": "gulp browser-sync",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor e2e-tests/protractor.conf.js",
+    "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
+  }
+}
