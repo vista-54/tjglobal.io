@@ -172,12 +172,13 @@ body {
           position: fixed;
           z-index: 9999; }
           body .content .content-container article .content-container-block div p {
-            max-width: 700px;
+            max-width: 730px;
             color: white;
             text-align: center;
             margin: 50px auto;
-            font-family: 'Relative Medium', Arial, sans-serif;
-            font-size: 16px; }
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            word-spacing: 6px; }
       body .content .content-container article .fourth {
         position: static; }
         body .content .content-container article .fourth div {
@@ -251,5 +252,8 @@ body {
       font-family: 'Relative Medium', Arial, sans-serif;
       color: rgba(232, 230, 229, 0.5);
       margin-bottom: 40px; }
+
+::-webkit-scrollbar {
+  width: 0px; }
 
 /*# sourceMappingURL=main.css.map */

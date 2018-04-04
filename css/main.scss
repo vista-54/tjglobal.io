@@ -241,15 +241,15 @@ body {
             position: fixed;
             z-index: 9999;
             p {
-              max-width: 700px;
+              max-width: 730px;
               color: white;
               text-align: center;
               margin: 50px auto;
               font:{
-                family: 'Relative Medium', Arial, sans-serif;
-                size: 16px;
+                family: "Roboto", sans-serif;
+                size: 20px;
               }
-
+              word-spacing: 6px;
             }
           }
         }
@@ -361,6 +361,10 @@ body {
     }
   }
 
+}
+
+::-webkit-scrollbar{
+  width: 0px;
 }
 
 

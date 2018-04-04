@@ -62,6 +62,7 @@ body {
     position: fixed;
     background: transparent;
     z-index: 10000000;
+    transition: .5s;
     .header-site-content {
       .header-site-content-logo {
         float: left;
@@ -80,7 +81,7 @@ body {
             //
             //}
           }
-          li:first-child > a {
+          li:nth-child(2) > a {
             border-bottom: 3px solid #303030;
             padding-bottom: 7px;
           }
@@ -99,17 +100,17 @@ body {
       background: white;
     }
     & .head {
-      div#anchor{
+      div#anchor {
         position: absolute;
         top: 30%;
         left: 25%;
         h1 {
           color: #303030;
           position: absolute;
-          font-size: 100px;
-          font-weight: 500;
+          font-size: 90px;
+          font-weight: 600;
         }
-        a{
+        a {
           text-decoration: none;
           color: #303030;
           font-size: 60px;
@@ -120,14 +121,22 @@ body {
     }
     & .background {
       background: {
-        image: url('../content/img/company.jpg');
+        image: url('../content/img/banks.jpg');
         size: cover;
         repeat: no-repeat;
         attachment: fixed;
       }
     }
     & .spreadsheet {
-      height: 1800px;
+      height: 3600px;
+      h5 {
+        text-align: center;
+        font: {
+          family: "Open-Sans", sans-serif;
+          size: 25px;
+
+        }
+      }
       table {
         width: 1000px;
         margin: 70px auto 0;
@@ -138,17 +147,27 @@ body {
           family: "Roboto", sans-serif;
 
         }
-        tbody{
+        tbody {
           background: white;
-          tr{
-            th{
+          tr {
+            height: 30px;
+            th {
               background: #303030;
               color: white;
             }
-            td{
+            td {
               padding-left: 15px;
+
             }
           }
+        }
+      }
+      p {
+        width: 1000px;
+        margin: 30px auto;
+        font: {
+          family: "Roboto", sans-serif;
+          size: 16px;
         }
       }
     }
@@ -256,7 +275,7 @@ body {
   }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
 
