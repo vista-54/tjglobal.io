@@ -88,32 +88,62 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; }
   body .content .about {
-    height: 600px; }
+    height: 1000px; }
     body .content .about div {
-      margin-top: 80px; }
-      body .content .about div p, body .content .about div h6, body .content .about div a {
-        display: block;
-        width: 1000px;
-        margin: 50px auto;
-        text-align: center;
-        font-family: "Relative Bold", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 1px;
-        line-height: 30px;
-        text-decoration: none;
-        color: #303030; }
-      body .content .about div p {
-        line-height: 25px;
-        margin-bottom: 0px; }
-      body .content .about div a {
-        line-height: 1px;
-        margin-bottom: 0px;
-        font-size: 25px;
-        font-weight: 600;
-        color: #ff3750; }
-      body .content .about div a:hover {
-        text-decoration: underline; }
+      margin-top: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body .content .about div div {
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column; }
+        body .content .about div div form {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around; }
+          body .content .about div div form input {
+            margin: 20px auto;
+            border: 2px solid #303030;
+            border-radius: 5px;
+            width: 400px;
+            height: 40px;
+            padding: 7px;
+            font-size: 23px; }
+          body .content .about div div form input[type=number]::-webkit-inner-spin-button,
+          body .content .about div div form input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0; }
+          body .content .about div div form textarea {
+            outline: none;
+            resize: none;
+            margin-top: 20px;
+            border: 2px solid #303030;
+            border-radius: 5px;
+            font-size: 23px; }
+          body .content .about div div form textarea::placeholder, body .content .about div div form input::placeholder {
+            vertical-align: center; }
+        body .content .about div div p, body .content .about div div h6, body .content .about div div a {
+          display: block;
+          text-align: center;
+          font-family: "Relative Bold", sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          line-height: 30px;
+          text-decoration: none;
+          color: #303030; }
+        body .content .about div div p {
+          line-height: 25px;
+          margin-bottom: 0px; }
+        body .content .about div div a {
+          line-height: 1px;
+          margin-bottom: 40px;
+          font-size: 25px;
+          font-weight: 600;
+          color: #ff3750; }
+        body .content .about div div a:hover {
+          text-decoration: underline; }
 
 .footer-site {
   height: auto;
@@ -131,12 +161,16 @@ body {
     .footer-site .footer-site-logo p {
       color: rgba(232, 230, 229, 0.5); }
   .footer-site .footer-site-contact {
-    margin-bottom: 100px; }
+    margin-bottom: 140px; }
     .footer-site .footer-site-contact div {
       width: 33.3333%;
       height: 20px;
       background: transparent;
       float: left; }
+      .footer-site .footer-site-contact div p {
+        color: rgba(232, 230, 229, 0.5);
+        text-align: center;
+        line-height: 22px; }
       .footer-site .footer-site-contact div a {
         display: inline-block;
         color: rgba(232, 230, 229, 0.5);
@@ -145,7 +179,11 @@ body {
         font-size: 20px;
         text-decoration: none; }
     .footer-site .footer-site-contact .footer-site-contact-email a {
-      margin-left: 50px; }
+      margin-left: 50px;
+      margin-top: 45px; }
+    .footer-site .footer-site-contact .footer-site-contact-email a:hover {
+      color: #ff3750;
+      text-decoration: underline; }
     .footer-site .footer-site-contact .footer-site-contact-social {
       display: flex;
       justify-content: center; }
@@ -158,9 +196,18 @@ body {
           font-size: 25px; }
         .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
           color: #ff3750; }
-    .footer-site .footer-site-contact .footer-site-contact-phone a {
+    .footer-site .footer-site-contact .footer-site-contact-phone div {
       margin-right: 50px;
-      float: right; }
+      float: right;
+      width: auto; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a {
+        float: right;
+        text-align: left;
+        width: 250px;
+        margin: 8px 0; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
+        color: #ff3750;
+        text-decoration: underline; }
   .footer-site .footer-site-license {
     width: 100%;
     display: flex;

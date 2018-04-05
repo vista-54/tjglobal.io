@@ -117,12 +117,16 @@ body {
     .footer-site .footer-site-logo p {
       color: rgba(232, 230, 229, 0.5); }
   .footer-site .footer-site-contact {
-    margin-bottom: 100px; }
+    margin-bottom: 140px; }
     .footer-site .footer-site-contact div {
       width: 33.3333%;
       height: 20px;
       background: transparent;
       float: left; }
+      .footer-site .footer-site-contact div p {
+        color: rgba(232, 230, 229, 0.5);
+        text-align: center;
+        line-height: 22px; }
       .footer-site .footer-site-contact div a {
         display: inline-block;
         color: rgba(232, 230, 229, 0.5);
@@ -131,7 +135,11 @@ body {
         font-size: 20px;
         text-decoration: none; }
     .footer-site .footer-site-contact .footer-site-contact-email a {
-      margin-left: 50px; }
+      margin-left: 50px;
+      margin-top: 45px; }
+    .footer-site .footer-site-contact .footer-site-contact-email a:hover {
+      color: #ff3750;
+      text-decoration: underline; }
     .footer-site .footer-site-contact .footer-site-contact-social {
       display: flex;
       justify-content: center; }
@@ -144,9 +152,18 @@ body {
           font-size: 25px; }
         .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
           color: #ff3750; }
-    .footer-site .footer-site-contact .footer-site-contact-phone a {
+    .footer-site .footer-site-contact .footer-site-contact-phone div {
       margin-right: 50px;
-      float: right; }
+      float: right;
+      width: auto; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a {
+        float: right;
+        text-align: left;
+        width: 250px;
+        margin: 8px 0; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
+        color: #ff3750;
+        text-decoration: underline; }
   .footer-site .footer-site-license {
     width: 100%;
     display: flex;

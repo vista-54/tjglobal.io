@@ -278,14 +278,22 @@ body {
     .footer-site-logo {
       margin: 30px auto 0;
       text-align: center;
+      p {
+        color: rgba(232, 230, 229, .5);
+      }
     }
     .footer-site-contact {
-      margin-bottom: 100px;
+      margin-bottom: 140px;
       div {
         width: 33.3333%;
         height: 20px;
         background: transparent ;
         float: left;
+        p{
+          color: rgba(232, 230, 229, .5);
+          text-align: center;
+          line-height: 22px;
+        }
         a {
           display: inline-block;
           color: rgba(232, 230, 229, .5);
@@ -299,6 +307,11 @@ body {
       .footer-site-contact-email {
         a{
           margin-left: 50px;
+          margin-top: 45px;
+        }
+        a:hover{
+          color: #ff3750;
+          text-decoration: underline  ;
         }
       }
       .footer-site-contact-social{
@@ -321,9 +334,20 @@ body {
 
       }
       .footer-site-contact-phone{
-        a{
+        div{
           margin-right: 50px;
           float: right;
+          width: auto;
+          a{
+            float: right;
+            text-align: left;
+            width: 250px;
+            margin: 8px 0;
+          }
+          a:hover{
+            color: #ff3750;
+            text-decoration: underline  ;
+          }
         }
       }
     }
