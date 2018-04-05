@@ -65,7 +65,7 @@ body {
     background: white; }
   body .content .head div#anchor {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 25%;
     width: 740px; }
     body .content .head div#anchor h1 {
@@ -173,7 +173,7 @@ body {
         float: right;
         text-align: left;
         width: 250px;
-        margin: 8px 0; }
+        margin-top: 45px; }
       .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
         color: #ff3750;
         text-decoration: underline; }

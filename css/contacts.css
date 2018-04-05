@@ -120,6 +120,7 @@ body {
             margin-top: 20px;
             border: 2px solid #303030;
             border-radius: 5px;
+            padding: 10px 15px;
             font-size: 23px; }
           body .content .about div div form textarea::placeholder, body .content .about div div form input::placeholder {
             vertical-align: center; }
@@ -204,7 +205,7 @@ body {
         float: right;
         text-align: left;
         width: 250px;
-        margin: 8px 0; }
+        margin-top: 45px; }
       .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
         color: #ff3750;
         text-decoration: underline; }

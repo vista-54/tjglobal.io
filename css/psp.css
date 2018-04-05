@@ -78,7 +78,7 @@ body {
       color: #303030;
       font-size: 60px;
       position: absolute;
-      padding-top: 270px; }
+      padding-top: 150px; }
   body .content .background {
     background-image: url("../content/img/psp.jpg");
     background-size: cover;
@@ -171,6 +171,7 @@ body {
         .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
           color: #ff3750; }
     .footer-site .footer-site-contact .footer-site-contact-phone a {
+      margin-top: 45px;
       margin-right: 50px;
       float: right; }
   .footer-site .footer-site-license {
