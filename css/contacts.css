@@ -126,7 +126,7 @@ body {
             color: #303030;
             line-height: 10px;
             height: 53px; }
-          body .content .about div div form input:hover {
+          body .content .about div div form input[type=submit]:hover {
             background: #ff3750;
             border: 2px solid #ffffff;
             color: #fff; }

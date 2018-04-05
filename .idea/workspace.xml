@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb897c72-54ac-424c-abd1-074a9e25be84" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/contacts.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/contacts.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contacts.css" afterPath="$PROJECT_DIR$/css/contacts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contacts.css.map" afterPath="$PROJECT_DIR$/css/contacts.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/contacts.scss" afterPath="$PROJECT_DIR$/css/contacts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/contacts.html" afterPath="$PROJECT_DIR$/pages/contacts.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,21 +172,21 @@
       <file leaf-file-name="contacts.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/contacts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="177" column="40" lean-forward="true" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+            <state relative-caret-position="601">
+              <caret line="175" column="30" lean-forward="false" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
               <folding>
                 <element signature="e#237#516#0" expanded="false" />
                 <element signature="e#248#299#0" expanded="false" />
                 <element signature="e#536#772#0" expanded="false" />
                 <element signature="e#798#847#0" expanded="false" />
-                <element signature="e#5075#5151#0" expanded="false" />
-                <element signature="e#5374#5427#0" expanded="false" />
-                <element signature="e#5476#7989#0" expanded="false" />
-                <element signature="e#6355#6517#0" expanded="false" />
-                <element signature="e#6550#6867#0" expanded="false" />
-                <element signature="e#7270#7798#0" expanded="false" />
-                <element signature="e#7821#7987#0" expanded="false" />
-                <element signature="e#8011#8028#0" expanded="false" />
+                <element signature="e#5088#5164#0" expanded="false" />
+                <element signature="e#5387#5440#0" expanded="false" />
+                <element signature="e#5489#8002#0" expanded="false" />
+                <element signature="e#6368#6530#0" expanded="false" />
+                <element signature="e#6563#6880#0" expanded="false" />
+                <element signature="e#7283#7811#0" expanded="false" />
+                <element signature="e#7834#8000#0" expanded="false" />
+                <element signature="e#8024#8041#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -382,7 +378,7 @@
       <updated>1522065345969</updated>
       <workItem from="1522065347274" duration="1390000" />
       <workItem from="1522067327998" duration="39563000" />
-      <workItem from="1522858014298" duration="23311000" />
+      <workItem from="1522858014298" duration="23426000" />
     </task>
     <task id="LOCAL-00001" summary="background video blur effect add">
       <created>1522090453801</created>
@@ -454,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522938170358</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="hyanya">
+      <created>1522942878428</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522942878428</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64264000" />
+    <option name="totallyTimeSpent" value="64379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -519,7 +522,8 @@
     <MESSAGE value="all templates create" />
     <MESSAGE value="mod footer, index, psp,banks" />
     <MESSAGE value="arrow,email, phone fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrow,email, phone fix" />
+    <MESSAGE value="hyanya" />
+    <option name="LAST_COMMIT_MESSAGE" value="hyanya" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -988,21 +992,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="177" column="40" lean-forward="true" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+        <state relative-caret-position="601">
+          <caret line="175" column="30" lean-forward="false" selection-start-line="175" selection-start-column="30" selection-end-line="175" selection-end-column="30" />
           <folding>
             <element signature="e#237#516#0" expanded="false" />
             <element signature="e#248#299#0" expanded="false" />
             <element signature="e#536#772#0" expanded="false" />
             <element signature="e#798#847#0" expanded="false" />
-            <element signature="e#5075#5151#0" expanded="false" />
-            <element signature="e#5374#5427#0" expanded="false" />
-            <element signature="e#5476#7989#0" expanded="false" />
-            <element signature="e#6355#6517#0" expanded="false" />
-            <element signature="e#6550#6867#0" expanded="false" />
-            <element signature="e#7270#7798#0" expanded="false" />
-            <element signature="e#7821#7987#0" expanded="false" />
-            <element signature="e#8011#8028#0" expanded="false" />
+            <element signature="e#5088#5164#0" expanded="false" />
+            <element signature="e#5387#5440#0" expanded="false" />
+            <element signature="e#5489#8002#0" expanded="false" />
+            <element signature="e#6368#6530#0" expanded="false" />
+            <element signature="e#6563#6880#0" expanded="false" />
+            <element signature="e#7283#7811#0" expanded="false" />
+            <element signature="e#7834#8000#0" expanded="false" />
+            <element signature="e#8024#8041#0" expanded="false" />
           </folding>
         </state>
       </provider>
