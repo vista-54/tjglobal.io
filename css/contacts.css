@@ -104,23 +104,46 @@ body {
           justify-content: space-around; }
           body .content .about div div form input {
             margin: 20px auto;
-            border: 2px solid #303030;
-            border-radius: 5px;
+            border: none;
+            border-bottom: 2px solid #303030;
             width: 400px;
             height: 40px;
             padding: 7px;
             font-size: 23px; }
+          body .content .about div div form input:focus {
+            outline: none; }
+          body .content .about div div form input.form_title {
+            margin: 20px 0 0;
+            border: 2px solid #303030;
+            border-radius: 5px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            padding: 7px 0 7px 14px; }
+          body .content .about div div form input[type=submit] {
+            border: 2px solid #303030;
+            border-radius: 5px;
+            width: 418px;
+            color: #303030;
+            line-height: 10px;
+            height: 53px; }
+          body .content .about div div form input:hover {
+            background: #ff3750;
+            border: 2px solid #ffffff;
+            color: #fff; }
           body .content .about div div form input[type=number]::-webkit-inner-spin-button,
           body .content .about div div form input[type=number]::-webkit-outer-spin-button {
             -webkit-appearance: none;
             margin: 0; }
           body .content .about div div form textarea {
+            width: 418px;
+            box-sizing: border-box;
             outline: none;
             resize: none;
-            margin-top: 20px;
             border: 2px solid #303030;
-            border-radius: 5px;
-            padding: 10px 15px;
+            border-top: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 10px 14px;
             font-size: 23px; }
           body .content .about div div form textarea::placeholder, body .content .about div div form input::placeholder {
             vertical-align: center; }
