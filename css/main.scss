@@ -176,6 +176,7 @@ body {
           size: cover;
           repeat: no-repeat;
           attachment: fixed;
+          position: center;
         }
       }
       & .second-section {
@@ -184,6 +185,7 @@ body {
           size: cover;
           repeat: no-repeat;
           attachment: fixed;
+          position: center;
         }
       }
       & .third-section {
@@ -192,6 +194,8 @@ body {
           size: cover;
           repeat: no-repeat;
           attachment: fixed;
+          position: center;
+
         }
       }
       & .fourth-section {
@@ -200,6 +204,7 @@ body {
           size: cover;
           repeat: no-repeat;
           attachment: fixed;
+          position: center;
         }
 
       }
@@ -395,3 +400,11 @@ body {
 
 
 //media
+
+@media (min-width: 540px) and (max-width: 767px){
+
+}
+
+@media (max-width: 539px) {
+
+}

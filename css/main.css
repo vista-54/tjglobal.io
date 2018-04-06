@@ -122,22 +122,26 @@ body {
       background-image: url("../content/img/forex.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; }
+      background-attachment: fixed;
+      background-position: center; }
     body .content .content-container .second-section {
       background-image: url("../content/img/psp.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; }
+      background-attachment: fixed;
+      background-position: center; }
     body .content .content-container .third-section {
       background-image: url("../content/img/banks.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; }
+      background-attachment: fixed;
+      background-position: center; }
     body .content .content-container .fourth-section {
       background-image: url("../content/img/legal-opinions.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      background-attachment: fixed; }
+      background-attachment: fixed;
+      background-position: center; }
     body .content .content-container .fifth-section {
       background-image: url("../content/img/legal-opinions.jpg");
       background-size: cover;
