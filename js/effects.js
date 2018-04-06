@@ -41,6 +41,9 @@ $(document).ready(function () {
                 else if (wScroll > $('#last_section').offset().top - 100) {
                     $('#last_section').removeClass('fourth');
                 }
+
+
+
             }
 
             if( company|| banks || about_us || contacts!== null){
@@ -60,6 +63,15 @@ $(document).ready(function () {
         });
 
     }
+
+
+    $('.header-site-content-media-menu-button').click(function () {
+        console.log('hiiiiii');
+        $('.menu').addClass('active')
+    });
+    $('.menu-close').click(function () {
+        $('.menu').removeClass('active')
+    });
 
 
     var acc = document.getElementsByClassName("accordion");

@@ -368,3 +368,54 @@ body {
 }
 
 //media
+@media (min-width: 1500px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1499px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  body{
+    .content{
+      .spreadsheet{
+        table{
+          width: 900px!important;
+        }
+
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  body{
+    .content{
+      .spreadsheet{
+        table{
+          width: 750px!important;
+        }
+        p{
+          width: 750px!important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px){
+  body{
+    .content{
+      .spreadsheet{
+        table{
+          width: 530px!important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 539px) {
+
+}

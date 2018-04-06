@@ -40,14 +40,56 @@ body {
   margin: 0;
   background: white;
   box-sizing: inherit; }
+  body .menu {
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    display: none; }
+    body .menu .menu-close {
+      border: none;
+      background: transparent;
+      font-size: 45px;
+      float: right;
+      margin-top: 15px;
+      margin-right: 30px; }
+      body .menu .menu-close svg {
+        color: white; }
+    body .menu ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: stretch;
+      height: 100vh; }
+      body .menu ul li {
+        text-align: center; }
+        body .menu ul li a {
+          font-size: 60px; }
+  body .active {
+    display: block; }
   body .header-site {
     height: 86px;
     width: 100%;
     position: fixed;
     background: transparent;
-    z-index: 10000000; }
+    z-index: 10000; }
     body .header-site .header-site-content .header-site-content-logo {
       float: left; }
+    body .header-site .header-site-content .header-site-content-media-menu {
+      border: none;
+      background: transparent;
+      float: right;
+      margin-top: 15px;
+      margin-right: 30px; }
+      body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button {
+        border: none;
+        background: transparent;
+        font-size: 35px; }
+        body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button svg {
+          color: white; }
     body .header-site .header-site-content .header-site-content-menu {
       float: right;
       margin-right: 15px; }
@@ -91,7 +133,6 @@ body {
         vertical-align: middle; }
         body .content .content-container-main .content-container-main-content div div#anchor {
           margin: 0 auto;
-          max-width: 970px;
           text-align: center;
           width: 100%;
           display: block; }
@@ -131,7 +172,7 @@ body {
       background-attachment: fixed;
       background-position: center; }
     body .content .content-container .third-section {
-      background-image: url("../content/img/banks.jpg");
+      background-image: url("../content/img/license.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -149,7 +190,6 @@ body {
       background-attachment: fixed; }
     body .content .content-container article {
       height: 100vh;
-      overflow: hidden;
       position: relative; }
       body .content .content-container article .content-container-block {
         bottom: 0;
@@ -160,7 +200,6 @@ body {
         right: 0;
         top: 0;
         height: 100vh;
-        width: 100%;
         z-index: 99999;
         overflow: hidden; }
         body .content .content-container article .content-container-block div {
@@ -176,7 +215,6 @@ body {
           position: fixed;
           z-index: 9999; }
           body .content .content-container article .content-container-block div p {
-            max-width: 730px;
             color: white;
             text-align: center;
             margin: 50px auto;
@@ -278,5 +316,43 @@ body {
 
 ::-webkit-scrollbar {
   width: 0px; }
+
+@media (min-width: 1500px) {
+  body header .header-site-content-media-menu {
+    display: none; } }
+@media (min-width: 1200px) and (max-width: 1499px) {
+  body header .header-site-content-media-menu {
+    display: none; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  body header .header-site-content-media-menu {
+    display: none; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body header .header-site-content-media-menu {
+    display: block; }
+  body header .header-site-content-menu {
+    display: none; }
+  body .content article {
+    width: 730px !important;
+    margin: 0 auto; }
+    body .content article div {
+      width: 730px !important; }
+      body .content article div div {
+        right: initial !important; }
+        body .content article div div h1, body .content article div div p {
+          margin: 0 auto; }
+        body .content article div div p {
+          font-size: 25px; } }
+@media (min-width: 540px) and (max-width: 767px) {
+  body .content .content-container article {
+    width: 730px !important;
+    margin: 0 auto; }
+    body .content .content-container article div.content-container-block {
+      width: 730px !important; }
+      body .content .content-container article div.content-container-block div {
+        right: initial !important; }
+        body .content .content-container article div.content-container-block div h1, body .content .content-container article div.content-container-block div p {
+          margin: 0 auto; }
+        body .content .content-container article div.content-container-block div p {
+          font-size: 35px !important; } }
 
 /*# sourceMappingURL=main.css.map */

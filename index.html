@@ -11,20 +11,46 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/effects.js"></script>
     <script src="language/english.js"></script>
+    <script src="language/language.js"></script>
 </head>
 <body id="index">
+
+<div class="menu">
+    <button class="menu-close"><i class="fas fa-times"></i></button>
+    <ul>
+        <li><a href="pages/company.html" class="main-link lang" data-key-parent='header' data-key-child='Company'>Company</a></li>
+        <li><a href="pages/banks.html" class="main-link lang" data-key-parent='header' data-key-child='Banks'>Banks</a></li>
+        <li><a href="pages/about_us.html" class="main-link lang" data-key-parent='header' data-key-child='About'>About Us</a></li>
+        <li><a href="pages/contacts.html" class="main-link lang" data-key-parent='header' data-key-child='Contact'>Contact</a></li>
+    </ul>
+</div>
 
 <header class="header-site">
     <div class="header-site-content">
         <div class="header-site-content-logo">
-            <a href='index.html' class="main-title" style="margin-top: 0; margin-left: 10px">logo</a>
+            <a href='index.html' class="main-title lang" style="margin-top: 0; margin-left: 10px" data-key-parent='header' data-key-child='logo'>logo</a>
+        </div>
+        <div class="header-site-content-media-menu">
+            <button  class="header-site-content-media-menu-button"><i class="fas fa-bars"></i></button>
+            <div></div>
+
         </div>
         <div class="header-site-content-menu">
             <ul>
-                <li><a href="pages/company.html" class="main-link">Company</a></li>
-                <li><a href="pages/banks.html" class="main-link">Banks</a></li>
-                <li><a href="pages/about_us.html" class="main-link">About Us</a></li>
-                <li><a href="pages/contacts.html" class="main-link">Contact</a></li>
+                <!--<ul>-->
+                    <!--<li class="dropdown">-->
+                        <!--<a href="javascript:void(0)" class="dropbtn">Dropdown</a>-->
+                        <!--<div class="dropdown-content">-->
+                            <!--<a href="#" class="translate" id="uk">uk</a>-->
+                            <!--<a href="#" class="translate" id="ru">ru</a>-->
+                        <!--</div>-->
+                    <!--</li>-->
+                <!--</ul>-->
+
+                <li><a href="pages/company.html" class="main-link lang" data-key-parent='header' data-key-child='Company'>Company</a></li>
+                <li><a href="pages/banks.html" class="main-link lang" data-key-parent='header' data-key-child='Banks'>Banks</a></li>
+                <li><a href="pages/about_us.html" class="main-link lang" data-key-parent='header' data-key-child='About'>About Us</a></li>
+                <li><a href="pages/contacts.html" class="main-link lang" data-key-parent='header' data-key-child='Contact'>Contact</a></li>
             </ul>
         </div>
     </div>
@@ -43,7 +69,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <div class="content-container" id="destination1">
@@ -138,7 +163,6 @@
         </div>
     </div>
     <div class="footer-site-bottom"><p>© TJ GLOBAL . 2018</p><br><p><p>All rights reserved.</p></p></div>
-
 </footer>
 
 </body>

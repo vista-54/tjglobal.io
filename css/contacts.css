@@ -261,4 +261,16 @@ body {
 ::-webkit-scrollbar {
   width: 0px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .content .spreadsheet table {
+    width: 900px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body .content .spreadsheet table {
+    width: 750px !important; }
+  body .content .spreadsheet p {
+    width: 750px !important; } }
+@media (min-width: 540px) and (max-width: 767px) {
+  body .content .spreadsheet table {
+    width: 530px !important; } }
+
 /*# sourceMappingURL=contacts.css.map */
