@@ -1,0 +1,204 @@
+.main-title {
+  color: #303030;
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-family: 'Relative Bold', Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none; }
+
+.main-link {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-family: 'Relative Medium', Arial, sans-serif;
+  font-size: 25px;
+  border-bottom: 0px solid #ffffff;
+  color: #303030;
+  margin-left: -20px;
+  white-space: nowrap;
+  cursor: pointer; }
+
+.animated::before {
+  background-color: #fff;
+  bottom: -.55556rem;
+  content: '';
+  height: 3px;
+  left: -20px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  transition: .2s ease-in-out;
+  width: 0; }
+
+.animated:hover::before {
+  transition: .2s ease-in-out;
+  width: 64px; }
+
+body {
+  margin: 0;
+  background: white;
+  box-sizing: inherit; }
+  body .header-site {
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    z-index: 10000000; }
+    body .header-site .header-site-content .header-site-content-logo {
+      float: left; }
+    body .header-site .header-site-content .header-site-content-menu {
+      float: right;
+      margin-right: 15px; }
+      body .header-site .header-site-content .header-site-content-menu ul li {
+        float: left;
+        margin-left: 55px;
+        display: block;
+        margin-top: 15px;
+        transition: .3s; }
+      body .header-site .header-site-content .header-site-content-menu ul li:nth-child(3) > a {
+        border-bottom: 3px solid #303030;
+        padding-bottom: 7px; }
+      body .header-site .header-site-content .header-site-content-menu ul li:hover {
+        margin-top: 11px; }
+  body .content .content-container {
+    height: 70vh;
+    width: 100%;
+    background: white; }
+  body .content .head div#anchor {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 700px; }
+    body .content .head div#anchor h1 {
+      color: #303030;
+      position: absolute;
+      font-size: 90px;
+      font-weight: 600; }
+    body .content .head div#anchor a {
+      text-decoration: none;
+      color: #303030;
+      font-size: 60px;
+      position: absolute;
+      padding-top: 270px; }
+  body .content .background {
+    background-image: url("../content/img/contacts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+  body .content .about {
+    height: 3000px; }
+    body .content .about div {
+      margin-top: 140px; }
+      body .content .about div p, body .content .about div ul {
+        width: 1000px;
+        margin: 70px auto;
+        text-align: center;
+        font-family: "Relative Bold", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px;
+        list-style-type: none; }
+      body .content .about div h5, body .content .about div h2 {
+        text-align: center;
+        font-family: 'roboto',sans-serif;
+        font-size: 20px;
+        color: #303030; }
+      body .content .about div h2 {
+        font-size: 30px; }
+
+.footer-site {
+  height: auto;
+  z-index: 100;
+  background: #303030;
+  box-sizing: border-box;
+  color: #e5ddd9;
+  padding-bottom: 1.11111rem;
+  padding-top: 3.33333rem;
+  text-align: left;
+  width: 100%; }
+  .footer-site .footer-site-logo {
+    margin: 30px auto 0;
+    text-align: center; }
+    .footer-site .footer-site-logo p {
+      color: rgba(232, 230, 229, 0.5); }
+  .footer-site .footer-site-contact {
+    margin-bottom: 140px; }
+    .footer-site .footer-site-contact div {
+      width: 33.3333%;
+      height: 20px;
+      background: transparent;
+      float: left; }
+      .footer-site .footer-site-contact div p {
+        color: rgba(232, 230, 229, 0.5);
+        text-align: center;
+        line-height: 22px; }
+      .footer-site .footer-site-contact div a {
+        display: inline-block;
+        color: rgba(232, 230, 229, 0.5);
+        font-weight: 400;
+        font-family: 'Relative Medium', Arial, sans-serif;
+        font-size: 20px;
+        text-decoration: none; }
+    .footer-site .footer-site-contact .footer-site-contact-email a {
+      margin-left: 50px;
+      margin-top: 45px; }
+    .footer-site .footer-site-contact .footer-site-contact-email a:hover {
+      color: #ff3750;
+      text-decoration: underline; }
+    .footer-site .footer-site-contact .footer-site-contact-social {
+      display: flex;
+      justify-content: center; }
+      .footer-site .footer-site-contact .footer-site-contact-social div {
+        width: 300px;
+        display: flex;
+        justify-content: space-around; }
+        .footer-site .footer-site-contact .footer-site-contact-social div a {
+          float: left;
+          font-size: 25px; }
+        .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
+          color: #ff3750; }
+    .footer-site .footer-site-contact .footer-site-contact-phone div {
+      margin-right: 50px;
+      float: right;
+      width: auto; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a {
+        float: right;
+        text-align: left;
+        width: 250px;
+        margin-top: 45px; }
+      .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
+        color: #ff3750;
+        text-decoration: underline; }
+  .footer-site .footer-site-license {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px; }
+    .footer-site .footer-site-license div {
+      display: flex;
+      width: 600px;
+      justify-content: space-around; }
+      .footer-site .footer-site-license div p, .footer-site .footer-site-license div a {
+        float: left;
+        font-size: 14px;
+        font-family: 'Relative Medium', Arial, sans-serif;
+        color: rgba(232, 230, 229, 0.5);
+        text-align: center;
+        margin: 0;
+        text-decoration: none; }
+      .footer-site .footer-site-license div a:first-child::after {
+        border-left: 1px solid rgba(232, 230, 229, 0.5); }
+  .footer-site .footer-site-bottom {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Relative Medium', Arial, sans-serif;
+    color: rgba(232, 230, 229, 0.5);
+    margin-bottom: 40px; }
+
+::-webkit-scrollbar {
+  width: 0px; }
+
+/*# sourceMappingURL=policy_company.css.map */
