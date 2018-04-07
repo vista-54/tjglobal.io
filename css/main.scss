@@ -102,6 +102,7 @@ body {
     background: transparent;
     z-index: 10000;
     .header-site-content {
+      width: 100%;
       .header-site-content-logo {
         float: left;
       }
@@ -724,8 +725,8 @@ body {
         }
         .header-site-content-media-menu {
 
-          margin-right: 8px !important;
-          margin-top: 8px !important;
+          margin-right: 2px !important;
+          margin-top: 2px !important;
           display: block;
           button{
             font-size: 45px !important;
