@@ -223,6 +223,9 @@ body {
             font-family: "Roboto", sans-serif;
             font-size: 20px;
             word-spacing: 6px; }
+          body .content .content-container article .content-container-block div a {
+            padding: 5px;
+            border: 2px solid #ffffff; }
       body .content .content-container article .fourth {
         position: static; }
         body .content .content-container article .fourth div {
