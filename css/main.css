@@ -149,7 +149,7 @@ body {
     width: 100%; }
     body .content .content-container h1 {
       position: absolute;
-      top: -110%;
+      top: -85%;
       color: white;
       width: 100%;
       height: 40px; }
@@ -212,7 +212,7 @@ body {
           margin: auto;
           right: 0;
           text-align: center;
-          top: 140px;
+          top: 50%;
           width: 100%;
           position: fixed;
           z-index: 9999; }
@@ -285,6 +285,12 @@ body {
         margin-right: 50px;
         float: right;
         width: auto; }
+        body .footer-site .footer-site-contact .footer-site-contact-phone div b {
+          color: rgba(232, 230, 229, 0.5);
+          margin-top: 45px;
+          display: inline-block;
+          font-size: 20px;
+          margin-right: 5px; }
         body .footer-site .footer-site-contact .footer-site-contact-phone div a {
           float: right;
           text-align: left;
@@ -304,7 +310,7 @@ body {
         justify-content: space-around; }
         body .footer-site .footer-site-license div p, body .footer-site .footer-site-license div a {
           float: left;
-          font-size: 14px;
+          font-size: 12px;
           font-family: 'Relative Medium', Arial, sans-serif;
           color: rgba(232, 230, 229, 0.5);
           text-align: center;

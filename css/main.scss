@@ -210,7 +210,7 @@ body {
         //  size: 40px}
 
         position: absolute;
-        top: -110%;
+        top: -85%;
         color: white;
         width: 100%;
         height: 40px;
@@ -297,7 +297,7 @@ body {
             margin: auto;
             right: 0;
             text-align: center;
-            top: 140px;
+            top: 50%;
             width: 100%;
             position: fixed;
             z-index: 9999;
@@ -403,6 +403,13 @@ body {
           margin-right: 50px;
           float: right;
           width: auto;
+          b{
+            color: rgba(232, 230, 229, 0.5);
+            margin-top: 45px;
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+          }
           a {
             float: right;
             text-align: left;
@@ -428,7 +435,7 @@ body {
         justify-content: space-around;
         p, a {
           float: left;
-          font-size: 14px;
+          font-size: 12px;
           font-family: 'Relative Medium', Arial, sans-serif;
           color: rgba(232, 230, 229, .5);
           text-align: center;
