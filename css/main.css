@@ -53,8 +53,6 @@ body {
       background: transparent;
       font-size: 65px;
       float: right;
-      margin-top: 15px;
-      margin-right: 30px;
       position: absolute;
       right: 1%; }
       body .menu .menu-close svg {
@@ -78,31 +76,33 @@ body {
     position: fixed;
     background: transparent;
     z-index: 10000; }
-    body .header-site .header-site-content .header-site-content-logo {
-      float: left; }
-    body .header-site .header-site-content .header-site-content-media-menu {
-      border: none;
-      background: transparent;
-      float: right;
-      margin-top: 15px;
-      margin-right: 30px; }
-      body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button {
+    body .header-site .header-site-content {
+      width: 100%; }
+      body .header-site .header-site-content .header-site-content-logo {
+        float: left; }
+      body .header-site .header-site-content .header-site-content-media-menu {
         border: none;
         background: transparent;
-        font-size: 55px; }
-        body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button svg {
-          color: white; }
-    body .header-site .header-site-content .header-site-content-menu {
-      float: right;
-      margin-right: 15px; }
-      body .header-site .header-site-content .header-site-content-menu ul li {
-        float: left;
-        margin-left: 55px;
-        display: block;
+        float: right;
         margin-top: 15px;
-        transition: .3s; }
-      body .header-site .header-site-content .header-site-content-menu ul li:hover {
-        margin-top: 11px; }
+        margin-right: 30px; }
+        body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button {
+          border: none;
+          background: transparent;
+          font-size: 55px; }
+          body .header-site .header-site-content .header-site-content-media-menu .header-site-content-media-menu-button svg {
+            color: white; }
+      body .header-site .header-site-content .header-site-content-menu {
+        float: right;
+        margin-right: 15px; }
+        body .header-site .header-site-content .header-site-content-menu ul li {
+          float: left;
+          margin-left: 55px;
+          display: block;
+          margin-top: 15px;
+          transition: .3s; }
+        body .header-site .header-site-content .header-site-content-menu ul li:hover {
+          margin-top: 11px; }
   body .content .content-container-main {
     height: 100vh;
     overflow: hidden;
@@ -427,11 +427,14 @@ body {
         body .content .content-container article div.content-container-block div h1 {
           font-size: 30px; } }
 @media (max-width: 540px) {
+  body header .menu .menu-close {
+    margin-top: 0px !important;
+    margin-right: -2px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
   body header .header-site-content .header-site-content-media-menu {
-    margin-right: 8px !important;
-    margin-top: 8px !important;
+    margin-right: 2px !important;
+    margin-top: 2px !important;
     display: block; }
     body header .header-site-content .header-site-content-media-menu button {
       font-size: 45px !important; }
