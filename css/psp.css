@@ -43,7 +43,7 @@ body {
   body .menu {
     height: 100vh;
     width: 100%;
-    z-index: 99999;
+    z-index: 999999;
     position: fixed;
     background: rgba(0, 0, 0, 0.8);
     overflow: hidden;
@@ -170,79 +170,94 @@ body {
         transition: max-height 0.5s ease-out; }
   body .content .about > div {
     margin: 70px auto; }
-
-.footer-site {
-  height: auto;
-  z-index: 100;
-  background: #303030;
-  box-sizing: border-box;
-  color: #e5ddd9;
-  padding-bottom: 1.11111rem;
-  padding-top: 3.33333rem;
-  text-align: left;
-  width: 100%; }
-  .footer-site .footer-site-logo {
-    margin: 30px auto 0;
-    text-align: center; }
-    .footer-site .footer-site-logo p {
-      color: rgba(232, 230, 229, 0.5); }
-  .footer-site .footer-site-contact {
-    margin-bottom: 100px; }
-    .footer-site .footer-site-contact div {
-      width: 33.3333%;
-      height: 20px;
-      background: transparent;
-      float: left; }
-      .footer-site .footer-site-contact div a {
-        display: inline-block;
-        color: rgba(232, 230, 229, 0.5);
-        font-weight: 400;
-        font-family: 'Relative Medium', Arial, sans-serif;
-        font-size: 20px;
-        text-decoration: none; }
-    .footer-site .footer-site-contact .footer-site-contact-email a {
-      margin-left: 50px; }
-    .footer-site .footer-site-contact .footer-site-contact-social {
-      display: flex;
-      justify-content: center; }
-      .footer-site .footer-site-contact .footer-site-contact-social div {
-        width: 300px;
+  body .footer-site {
+    height: auto;
+    z-index: 100;
+    background: #303030;
+    box-sizing: border-box;
+    color: #e5ddd9;
+    padding-bottom: 1.11111rem;
+    padding-top: 3.33333rem;
+    text-align: left;
+    width: 100%; }
+    body .footer-site .footer-site-logo {
+      margin: 30px auto 0;
+      text-align: center; }
+      body .footer-site .footer-site-logo p {
+        color: rgba(232, 230, 229, 0.5); }
+    body .footer-site .footer-site-contact {
+      margin-bottom: 140px; }
+      body .footer-site .footer-site-contact div {
+        width: 33.3333%;
+        height: 20px;
+        background: transparent;
+        float: left; }
+        body .footer-site .footer-site-contact div p {
+          color: rgba(232, 230, 229, 0.5);
+          text-align: center;
+          line-height: 22px; }
+        body .footer-site .footer-site-contact div a {
+          display: inline-block;
+          color: rgba(232, 230, 229, 0.5);
+          font-weight: 400;
+          font-family: 'Relative Medium', Arial, sans-serif;
+          font-size: 20px;
+          text-decoration: none; }
+      body .footer-site .footer-site-contact .footer-site-contact-email a {
+        margin-left: 50px;
+        margin-top: 45px; }
+      body .footer-site .footer-site-contact .footer-site-contact-email a:hover {
+        color: #ff3750;
+        text-decoration: underline; }
+      body .footer-site .footer-site-contact .footer-site-contact-social {
         display: flex;
-        justify-content: space-around; }
-        .footer-site .footer-site-contact .footer-site-contact-social div a {
-          float: left;
-          font-size: 25px; }
-        .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
-          color: #ff3750; }
-    .footer-site .footer-site-contact .footer-site-contact-phone a {
-      margin-top: 45px;
-      margin-right: 50px;
-      float: right; }
-  .footer-site .footer-site-license {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px; }
-    .footer-site .footer-site-license div {
+        justify-content: center; }
+        body .footer-site .footer-site-contact .footer-site-contact-social div {
+          width: 300px;
+          display: flex;
+          justify-content: space-around; }
+          body .footer-site .footer-site-contact .footer-site-contact-social div a {
+            float: left;
+            font-size: 25px; }
+          body .footer-site .footer-site-contact .footer-site-contact-social div a:hover {
+            color: #ff3750; }
+      body .footer-site .footer-site-contact .footer-site-contact-phone div {
+        margin-right: 50px;
+        float: right;
+        width: auto; }
+        body .footer-site .footer-site-contact .footer-site-contact-phone div a {
+          float: right;
+          text-align: left;
+          width: 250px;
+          margin-top: 45px; }
+        body .footer-site .footer-site-contact .footer-site-contact-phone div a:hover {
+          color: #ff3750;
+          text-decoration: underline; }
+    body .footer-site .footer-site-license {
+      width: 100%;
       display: flex;
-      width: 600px;
-      justify-content: space-around; }
-      .footer-site .footer-site-license div p, .footer-site .footer-site-license div a {
-        float: left;
-        font-size: 14px;
-        font-family: 'Relative Medium', Arial, sans-serif;
-        color: rgba(232, 230, 229, 0.5);
-        text-align: center;
-        margin: 0;
-        text-decoration: none; }
-      .footer-site .footer-site-license div a:first-child::after {
-        border-left: 1px solid rgba(232, 230, 229, 0.5); }
-  .footer-site .footer-site-bottom {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Relative Medium', Arial, sans-serif;
-    color: rgba(232, 230, 229, 0.5);
-    margin-bottom: 40px; }
+      justify-content: center;
+      margin-bottom: 40px; }
+      body .footer-site .footer-site-license div {
+        display: flex;
+        width: 600px;
+        justify-content: space-around; }
+        body .footer-site .footer-site-license div p, body .footer-site .footer-site-license div a {
+          float: left;
+          font-size: 14px;
+          font-family: 'Relative Medium', Arial, sans-serif;
+          color: rgba(232, 230, 229, 0.5);
+          text-align: center;
+          margin: 0;
+          text-decoration: none; }
+        body .footer-site .footer-site-license div a:first-child::after {
+          border-left: 1px solid rgba(232, 230, 229, 0.5); }
+    body .footer-site .footer-site-bottom {
+      text-align: center;
+      font-size: 14px;
+      font-family: 'Relative Medium', Arial, sans-serif;
+      color: rgba(232, 230, 229, 0.5);
+      margin-bottom: 40px; }
 
 ::-webkit-scrollbar {
   width: 0px; }
