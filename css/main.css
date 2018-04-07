@@ -163,25 +163,25 @@ body {
         background: rgba(0, 0, 0, 0.5); }
     body .content .content-container .first-section {
       background-image: url("../content/img/forex.jpg");
-      background-size: cover;
+      background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     body .content .content-container .second-section {
       background-image: url("../content/img/psp.jpg");
-      background-size: cover;
+      background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     body .content .content-container .third-section {
       background-image: url("../content/img/license.jpg");
-      background-size: cover;
+      background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
     body .content .content-container .fourth-section {
       background-image: url("../content/img/legal-opinions.jpg");
-      background-size: cover;
+      background-size: cover !important;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center; }
