@@ -309,6 +309,44 @@ body {
           text-decoration: none; }
         body .footer-site .footer-site-license div a:first-child::after {
           border-left: 1px solid rgba(232, 230, 229, 0.5); }
+        body .footer-site .footer-site-license div .test {
+          width: auto; }
+          body .footer-site .footer-site-license div .test .test_button {
+            border: none;
+            background: transparent; }
+          body .footer-site .footer-site-license div .test ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333; }
+          body .footer-site .footer-site-license div .test li {
+            float: left; }
+          body .footer-site .footer-site-license div .test li a, body .footer-site .footer-site-license div .test .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            text-decoration: none; }
+          body .footer-site .footer-site-license div .test li a:hover, body .footer-site .footer-site-license div .test .dropdown:hover .dropbtn {
+            background-color: #ff3750; }
+          body .footer-site .footer-site-license div .test li.dropdown {
+            display: inline-block; }
+          body .footer-site .footer-site-license div .test .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1; }
+          body .footer-site .footer-site-license div .test .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left; }
+          body .footer-site .footer-site-license div .test .dropdown-content a:hover {
+            background-color: #f1f1f1; }
+          body .footer-site .footer-site-license div .test .dropdown:hover .dropdown-content {
+            display: block; }
     body .footer-site .footer-site-bottom {
       text-align: center;
       font-size: 14px;
