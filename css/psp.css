@@ -270,7 +270,15 @@ body {
     display: none; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   body header .header-site-content-media-menu {
-    display: none; } }
+    display: none; }
+  body .content .about div {
+    width: 900px !important; }
+    body .content .about div .accordion {
+      width: 900px !important; }
+    body .content .about div .panel {
+      width: 900px !important; }
+      body .content .about div .panel p {
+        width: 900px !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 75px !important; }
@@ -280,6 +288,20 @@ body {
       font-size: 55px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
+  body .content .head #anchor {
+    width: 550px !important; }
+    body .content .head #anchor h1 {
+      font-size: 70px !important; }
+  body .content .about div {
+    margin: 70px auto;
+    width: 730px !important; }
+    body .content .about div .accordion {
+      width: 730px !important; }
+    body .content .about div .panel {
+      box-sizing: border-box;
+      width: 730px !important; }
+      body .content .about div .panel p {
+        width: 730px !important; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
@@ -291,6 +313,20 @@ body {
       font-size: 45px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
+  body .content .head #anchor {
+    width: auto !important; }
+    body .content .head #anchor h1 {
+      font-size: 50px !important; }
+  body .content .about div {
+    margin: 70px auto;
+    width: 530px !important; }
+    body .content .about div .accordion {
+      width: 530px !important; }
+    body .content .about div .panel {
+      box-sizing: border-box;
+      width: 530px !important; }
+      body .content .about div .panel p {
+        width: 530px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;
@@ -331,6 +367,23 @@ body {
       font-size: 45px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
+  body .content .head #anchor {
+    width: auto !important;
+    top: 20% !important; }
+    body .content .head #anchor h1 {
+      font-size: 70px !important; }
+    body .content .head #anchor a {
+      padding-top: 190px !important; }
+  body .content .about div {
+    margin: 70px auto;
+    width: 300px !important; }
+    body .content .about div .accordion {
+      width: 300px !important; }
+    body .content .about div .panel {
+      box-sizing: border-box;
+      width: 300px !important; }
+      body .content .about div .panel p {
+        width: 300px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;

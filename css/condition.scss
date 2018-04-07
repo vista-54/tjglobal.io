@@ -436,6 +436,23 @@ body {
         }
       }
     }
+    .content {
+      .head {
+        #anchor{
+          width: 20px  !important;
+          h1 {
+            font-size: 35px !important;
+          }
+        }
+
+      }
+
+      height: 9300px !important;
+      p,ul {
+        width: auto !important;
+      }
+
+    }
     footer {
       .footer-site-contact{
         width: 100% !important;
@@ -508,15 +525,26 @@ body {
     }
     .content {
       .head {
-        h1 {
-          font-size: 35px !important;
+        #anchor{
+          width: auto !important;
+          top:12% !important;
+          h1 {
+            font-size: 40px !important;
+          }
+          a{
+            padding-top: 215px !important;
+          }
+        }
+      }
+      .about{
+        height: 9300px !important;
+        p,ul {
+          box-sizing: border-box;
+          width: auto !important;
         }
       }
 
-        height: 9300px !important;
-        p,ul {
-          width: 300px !important;
-        }
+
 
     }
     footer {
