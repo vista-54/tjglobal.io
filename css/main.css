@@ -348,6 +348,8 @@ body {
     display: none; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; }
+  body .content .content-container-main .content-container-main-content div div#anchor h1 {
+    font-size: 55px; }
   body .content .content-container-main .content-container-main-content div div#anchor a {
     left: 50%;
     margin-left: -20px;
@@ -403,6 +405,8 @@ body {
         body footer .footer-site-contact .footer-site-contact-phone div a {
           text-align: center !important;
           float: none !important; }
+  body .content .content-container-main .content-container-main-content div div#anchor h1 {
+    font-size: 45px; }
   body .content .content-container-main .content-container-main-content div div#anchor a {
     left: 50%;
     margin-left: -20px;
@@ -464,6 +468,8 @@ body {
           float: none !important; }
   body footer .footer-site-bottom {
     margin-bottom: 0; }
+  body .content .content-container-main .content-container-main-content div div#anchor h1 {
+    font-size: 35px; }
   body .content .content-container-main .content-container-main-content div div#anchor a {
     left: 50%;
     margin-left: -20px;

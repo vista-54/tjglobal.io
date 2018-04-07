@@ -201,4 +201,69 @@ body {
 ::-webkit-scrollbar {
   width: 0px; }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  body footer .footer-site-contact .footer-site-contact-phone div {
+    margin-right: 0 !important; } }
+@media (min-width: 540px) and (max-width: 768px) {
+  body footer .footer-site-contact {
+    width: 100% !important;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 70px !important; }
+    body footer .footer-site-contact div {
+      margin: 20px auto; }
+    body footer .footer-site-contact .footer-site-contact-email {
+      margin: 0 auto;
+      text-align: center; }
+      body footer .footer-site-contact .footer-site-contact-email a {
+        margin-top: 0 !important;
+        margin-left: 0 !important; }
+    body footer .footer-site-contact .footer-site-contact-phone {
+      width: 42% !important;
+      float: none; }
+      body footer .footer-site-contact .footer-site-contact-phone div {
+        margin-right: 0 !important;
+        float: none !important;
+        display: flex;
+        justify-content: center; }
+        body footer .footer-site-contact .footer-site-contact-phone div a {
+          text-align: center !important;
+          float: none !important; } }
+@media (max-width: 540px) {
+  body footer .footer-site-contact {
+    width: 100% !important;
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 70px !important; }
+    body footer .footer-site-contact div {
+      margin: 20px auto; }
+    body footer .footer-site-contact .footer-site-contact-email {
+      width: 42% !important;
+      margin: 0 auto;
+      text-align: center; }
+      body footer .footer-site-contact .footer-site-contact-email a {
+        margin-top: 0 !important;
+        margin-left: 0 !important; }
+    body footer .footer-site-contact .footer-site-contact-social {
+      margin-top: 0;
+      margin-bottom: 65px; }
+    body footer .footer-site-contact .footer-site-contact-phone {
+      width: 42% !important;
+      float: none;
+      margin-bottom: 55px; }
+      body footer .footer-site-contact .footer-site-contact-phone div {
+        margin-right: 0 !important;
+        float: none !important;
+        display: flex;
+        justify-content: center; }
+        body footer .footer-site-contact .footer-site-contact-phone div a {
+          text-align: center !important;
+          float: none !important; }
+  body footer .footer-site-bottom {
+    margin-bottom: 0; } }
+
 /*# sourceMappingURL=policy_company.css.map */
