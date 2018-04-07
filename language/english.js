@@ -16,8 +16,11 @@ var arrLang ={
             'e-commerce_text':'',
             'license_title':'',
             'license_text':'',
-            'legal_title':'',
+            'legal_title':'LEGAL OPINION',
             'legal_text':''
+        },
+        'footer':{
+
         }
     },
     'ru-RU':{
@@ -37,7 +40,7 @@ var arrLang ={
             'e-commerce_text':'',
             'license_title':'',
             'license_text':'',
-            'legal_title':'',
+            'legal_title':'ЮРИДИЧЕСКИЕ ЗАКЛЮЧЕНИЯ',
             'legal_text':''
         }
     }
