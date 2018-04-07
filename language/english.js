@@ -48,6 +48,8 @@ var arrLang ={
 };
 
 $(function () {
+    // https://www.tjglobal.org/en/
+
     $(document).ready(function () {
 
         // var lang = $(this).attr('id');
