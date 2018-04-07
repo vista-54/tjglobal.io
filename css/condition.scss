@@ -377,6 +377,19 @@ body {
         display: none;
       }
     }
+    .content {
+      .head {
+        #anchor {
+        }
+
+      }
+
+      height: 6100px !important;
+      p,ul {
+        width: 950px !important;
+      }
+
+    }
   }
 
 }
@@ -400,6 +413,26 @@ body {
         .header-site-content-menu {
           display: none;
         }
+      }
+
+    }
+    .content {
+      .head {
+        #anchor{
+          width: 350px  !important;
+          h1 {
+            font-size: 35px !important;
+          }
+          a{
+            padding-top: 150px !important;
+          }
+        }
+
+      }
+
+      height: 6400px !important;
+      p,ul {
+        width: auto !important;
       }
 
     }
@@ -439,15 +472,18 @@ body {
     .content {
       .head {
         #anchor{
-          width: 20px  !important;
+          width: 250px  !important;
           h1 {
             font-size: 35px !important;
+          }
+          a{
+            padding-top: 150px !important;
           }
         }
 
       }
 
-      height: 9300px !important;
+      height: 7100px !important;
       p,ul {
         width: auto !important;
       }
@@ -540,7 +576,7 @@ body {
         height: 9300px !important;
         p,ul {
           box-sizing: border-box;
-          width: auto !important;
+          width: 300px !important;
         }
       }
 
