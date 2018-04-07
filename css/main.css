@@ -430,6 +430,8 @@ body {
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
   body header .header-site-content .header-site-content-media-menu {
+    margin-right: 8px !important;
+    margin-top: 8px !important;
     display: block; }
     body header .header-site-content .header-site-content-media-menu button {
       font-size: 45px !important; }
