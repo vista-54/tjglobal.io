@@ -193,4 +193,14 @@ body {
 ::-webkit-scrollbar {
   width: 0px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .content p {
+    width: 900px !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body .content p {
+    width: 730px !important; } }
+@media (min-width: 540px) and (max-width: 767px) {
+  body .content p {
+    font-size: 20px !important; } }
+
 /*# sourceMappingURL=about_us.css.map */
