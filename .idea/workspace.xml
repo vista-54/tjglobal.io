@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb897c72-54ac-424c-abd1-074a9e25be84" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/condition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/kyc.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/policy.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/policy_company.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/img/license.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/condition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/condition.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/kyc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/kyc.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/policy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/policy.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/policy_company.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/policy_company.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/company.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2d6c72ade3618ef673cc993d041e479ddd9df98d/company.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.css" afterPath="$PROJECT_DIR$/css/company.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.css.map" afterPath="$PROJECT_DIR$/css/company.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.scss" afterPath="$PROJECT_DIR$/css/company.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -165,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="company.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/company.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="669">
-              <caret line="331" column="6" lean-forward="false" selection-start-line="331" selection-start-column="6" selection-end-line="331" selection-end-column="6" />
+              <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
               <folding>
                 <element signature="e#25#224#0" expanded="false" />
                 <element signature="e#237#516#0" expanded="false" />
@@ -186,17 +169,17 @@
                 <element signature="e#5675#5692#0" expanded="false" />
                 <element signature="e#5729#5733#0" expanded="false" />
                 <element signature="e#5785#5789#0" expanded="false" />
-                <element signature="e#6463#6467#0" expanded="false" />
+                <element signature="e#6457#6461#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="english.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="english.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/language/english.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="440">
+              <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
               <folding>
                 <element signature="e#43#207#0" expanded="false" />
                 <element signature="e#572#738#0" expanded="false" />
@@ -390,7 +373,7 @@
       <workItem from="1522067327998" duration="39563000" />
       <workItem from="1522858014298" duration="25345000" />
       <workItem from="1522963607076" duration="17239000" />
-      <workItem from="1523030156413" duration="2109000" />
+      <workItem from="1523030156413" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="background video blur effect add">
       <created>1522090453801</created>
@@ -518,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523032306532</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="responsive upadate-3">
+      <created>1523032331054</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1523032331054</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85646000" />
+    <option name="totallyTimeSpent" value="87488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -535,7 +525,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -590,11 +580,12 @@
     <MESSAGE value="add footer pages" />
     <MESSAGE value="responsive upadate" />
     <MESSAGE value="responsive upadate-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive upadate-2" />
+    <MESSAGE value="responsive upadate-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive upadate-3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1143,17 +1134,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/language/english.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#43#207#0" expanded="false" />
-            <element signature="e#572#738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/language/language.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1238,7 +1218,7 @@
     <entry file="file://$PROJECT_DIR$/css/company.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
-          <caret line="331" column="6" lean-forward="false" selection-start-line="331" selection-start-column="6" selection-end-line="331" selection-end-column="6" />
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
           <folding>
             <element signature="e#25#224#0" expanded="false" />
             <element signature="e#237#516#0" expanded="false" />
@@ -1255,7 +1235,18 @@
             <element signature="e#5675#5692#0" expanded="false" />
             <element signature="e#5729#5733#0" expanded="false" />
             <element signature="e#5785#5789#0" expanded="false" />
-            <element signature="e#6463#6467#0" expanded="false" />
+            <element signature="e#6457#6461#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/english.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="e#43#207#0" expanded="false" />
+            <element signature="e#572#738#0" expanded="false" />
           </folding>
         </state>
       </provider>
