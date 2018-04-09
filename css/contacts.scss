@@ -303,6 +303,29 @@ body {
             text-decoration: underline;
           }
         }
+        div:last-child{
+
+          flex-direction: row;
+          height: 200px;
+          align-self: center;
+          margin-bottom: 50px;
+          div:first-child{
+            width: 60px;
+            justify-content: flex-start;
+            img{
+              margin-top: 25px;
+              width: 50px;
+            }
+          }
+          div:last-child{
+            flex-direction: column;
+            justify-content: flex-start;
+            p, a{
+              text-align: justify;
+            }
+          }
+
+        }
 
       }
 

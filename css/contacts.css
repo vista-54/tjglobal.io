@@ -218,6 +218,22 @@ body {
           color: #ff3750; }
         body .content .about div div a:hover {
           text-decoration: underline; }
+      body .content .about div div:last-child {
+        flex-direction: row;
+        height: 200px;
+        align-self: center;
+        margin-bottom: 50px; }
+        body .content .about div div:last-child div:first-child {
+          width: 60px;
+          justify-content: flex-start; }
+          body .content .about div div:last-child div:first-child img {
+            margin-top: 25px;
+            width: 50px; }
+        body .content .about div div:last-child div:last-child {
+          flex-direction: column;
+          justify-content: flex-start; }
+          body .content .about div div:last-child div:last-child p, body .content .about div div:last-child div:last-child a {
+            text-align: justify; }
 
 .footer-site {
   height: auto;
