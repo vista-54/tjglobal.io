@@ -76,14 +76,13 @@ body {
     height: 86px;
     width: 100%;
     position: fixed;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     z-index: 10000; }
     body .header-site .header-site-content .header-site-content-logo {
       float: left;
       width: 250px; }
       body .header-site .header-site-content .header-site-content-logo img {
-        width: 250px;
-        margin-top: 15px; }
+        width: 250px; }
     body .header-site .header-site-content .header-site-content-media-menu {
       border: none;
       background: transparent;
