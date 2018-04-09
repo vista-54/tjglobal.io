@@ -107,6 +107,11 @@ body {
     .header-site-content {
       .header-site-content-logo {
         float: left;
+        width: 250px;
+        img{
+          width: 250px;
+          margin-top: 15px;
+        }
       }
       .header-site-content-media-menu {
         border: none;

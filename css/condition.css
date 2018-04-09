@@ -79,7 +79,11 @@ body {
     background: transparent;
     z-index: 10000; }
     body .header-site .header-site-content .header-site-content-logo {
-      float: left; }
+      float: left;
+      width: 250px; }
+      body .header-site .header-site-content .header-site-content-logo img {
+        width: 250px;
+        margin-top: 15px; }
     body .header-site .header-site-content .header-site-content-media-menu {
       border: none;
       background: transparent;
