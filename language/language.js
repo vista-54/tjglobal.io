@@ -775,6 +775,12 @@ $(document).ready(function () {
     // console.log(arrLang[lang].header.logo);
     var lang = navigator.language;
     console.log(lang);
+    if (lang.indexOf('ru') !== -1) {
+        lang = "ru-RU";
+    }
+    else {
+        lang = "uk";
+    }
 
 
     $('.lang').each(function (index, element) {
