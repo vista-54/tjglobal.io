@@ -379,8 +379,7 @@ body {
       font-size: 9px !important; }
       body .content .about div div table td {
         word-break: break-word;
-        padding-left: 0 !important;
-        font-size: 12px; }
+        padding-left: 0 !important; }
     body .content .about div div > p {
       width: 300px !important; }
   body .content .about > p {
