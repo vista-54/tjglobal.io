@@ -393,7 +393,8 @@ body {
       width: 300px !important; }
     body .content .about div .panel {
       box-sizing: border-box;
-      width: 300px !important; }
+      width: 300px !important;
+      padding: 0; }
       body .content .about div .panel p {
         width: 300px !important; }
   body footer .footer-site-contact {

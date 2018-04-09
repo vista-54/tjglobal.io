@@ -190,7 +190,7 @@ body {
       }
     }
     & .about {
-      height: 600px;
+      height: auto;
       div{
         margin-top: 140px;
         p {
@@ -379,7 +379,6 @@ body {
         }
       }
       .about{
-        height: 600px;
         p{
           width: 900px !important;
         }
@@ -422,9 +421,8 @@ body {
         }
       }
       .about{
-        height: 600px;
         p{
-          width: auto !important;
+          width: 730px !important;
         }
       }
 
@@ -472,9 +470,9 @@ body {
         }
       }
       .about{
-        height: 600px;
+
         p{
-          width: auto !important;
+          width: 530px !important;
         }
       }
 
@@ -577,9 +575,9 @@ body {
         background-attachment: scroll !important;
       }
       .about{
-        height: 600px;
+        //height: 600px;
         p{
-          width: auto !important;
+          width: 300px !important;
         }
       }
 

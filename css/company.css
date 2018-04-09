@@ -274,6 +274,8 @@ body {
     display: none; }
   body .content .spreadsheet table {
     width: 750px !important; }
+  body .content .spreadsheet > p {
+    text-align: justify; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
@@ -287,6 +289,8 @@ body {
     display: none; }
   body .content .spreadsheet table {
     width: 530px !important; }
+  body .content .spreadsheet > p {
+    text-align: justify; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;
@@ -343,6 +347,7 @@ body {
       body .content .spreadsheet table td {
         padding: 0 !important; }
   body .content .spreadsheet > p {
+    text-align: justify;
     width: 300px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
