@@ -134,7 +134,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; }
   body .content .spreadsheet {
-    height: 1800px; }
+    height: auto; }
     body .content .spreadsheet table {
       width: 1000px;
       margin: 70px auto 0;
@@ -365,7 +365,8 @@ body {
         padding: 0 !important; }
   body .content .spreadsheet > p {
     text-align: justify;
-    width: 300px !important; }
+    width: 300px !important;
+    margin: auto; }
   body footer {
     padding-top: 10px !important; }
     body footer .footer-site-contact {

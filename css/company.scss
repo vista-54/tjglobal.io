@@ -190,7 +190,7 @@ body {
       }
     }
     & .spreadsheet {
-      height: 1800px;
+      height: auto;
       table {
         width: 1000px;
         margin: 70px auto 0;
@@ -618,6 +618,7 @@ body {
       .spreadsheet>p{
         text-align: justify;
         width: 300px!important;
+        margin: auto;
       }
     }
     footer {
