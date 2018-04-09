@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,500,700" rel="stylesheet">
     <script src="../js/jquery-2.1.3.min.js"></script>
     <script src="../js/effects.js"></script>
+    <script src="../language/language.js"></script>
 </head>
 <body id="about_us">
 <div class="menu">
@@ -20,7 +21,7 @@
         <li><a href="company.html" class="main-link lang" data-key-parent='header' data-key-child='Company'>Company</a></li>
         <li><a href="banks.html" class="main-link lang" data-key-parent='header' data-key-child='Banks'>Banks</a></li>
         <li><a href="about_us.html" class="main-link lang" data-key-parent='header' data-key-child='About'>About Us</a></li>
-        <li><a href="contacts.html" class="main-link lang" data-key-parent='header' data-key-child='Contact'>Contact</a></li>
+        <li><a href="contacts.html" class="main-link lang"  data-key-parent='header' data-key-child='Contact'>Contact</a></li>
     </ul>
 </div>
 
@@ -36,10 +37,10 @@
         </div>
         <div class="header-site-content-menu">
             <ul>
-                <li><a href="company.html" class="main-link">Company</a></li>
-                <li><a href="banks.html" class="main-link">Banks</a></li>
-                <li><a href="about_us.html" class="main-link">About Us</a></li>
-                <li><a href="contacts.html" class="main-link">Contact</a></li>
+                <li><a href="company.html" class="main-link lang"  data-key-parent='header' data-key-child='Company'>Company</a></li>
+                <li><a href="banks.html" class="main-link lang"  data-key-parent='header' data-key-child='Banks'>Banks</a></li>
+                <li><a href="about_us.html" class="main-link lang"  data-key-parent='header' data-key-child='About'>About Us</a></li>
+                <li><a href="contacts.html" class="main-link lang"  data-key-parent='header' data-key-child='Contact'>Contact</a></li>
             </ul>
         </div>
     </div>
@@ -47,24 +48,17 @@
 
 <div class="content">
 
-    <!--<div class="content-container head">-->
-        <!--<div id="anchor">-->
-            <!--<h1 class="main-title">Legal opinion</h1>-->
-            <!--<a href="#section" class="scroll"><i class="fas fa-angle-down"></i></a>-->
-        <!--</div>-->
-
-    <!--</div>-->
     <div class="content-container background"></div>
-    <div class="content-container about" id="section">
+    <div class="content-container about">
         <div>
-            <p>This is a brief or complete legal (legal) opinion on each individual issue or aspect of the activity,
+            <p class="lang"  data-key-parent='legal_opinion' data-key-child='text_1'>This is a brief or complete legal (legal) opinion on each individual issue or aspect of the activity,
                 within the frame the company operates in accordance with the laws in force of the country of
                 incorporation or country of registration of the company.
                 </p>
-            <p>"This report is drawn up by experts or lawyers, in accordance with international norms, rules, laws or
+            <p class="lang"  data-key-parent='legal_opinion' data-key-child='text_2'>"This report is drawn up by experts or lawyers, in accordance with international norms, rules, laws or
                 acts and is a reliable source of information on the legal niceties of the particular type of activity
                 under consideration, which is certified by a lawyer and has the status of a legal document.</p>
-            <p>The expert providing a legal opinion takes the consequences of its use.</p>
+            <p class="lang"  data-key-parent='legal_opinion' data-key-child='text_3'>The expert providing a legal opinion takes the consequences of its use.</p>
 
 
         </div>
@@ -72,37 +66,12 @@
 </div>
 
 <footer class="footer-site">
-    <!--<div class="footer-site-logo"><p class="main-title">logo</p></div>-->
-    <!--<div class="footer-site-contact">-->
-        <!--<div class="footer-site-contact-email">-->
-            <!--<a href="mailto:info@tjglobal.org">info@tjglobal.org</a>-->
-        <!--</div>-->
-        <!--<div class="footer-site-contact-social">-->
-            <!--<div>-->
-
-                <!--&lt;!&ndash;<a href=""><i class="fab fa-facebook"></i></a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<a href=""><i class="fab fa-twitter"></i></a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<a href=""><i class="fab fa-linkedin"></i></a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<a href=""><i class="fab fa-instagram"></i></a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<a href=""><i class="fab fa-vimeo-v"></i></a>&ndash;&gt;-->
-                <!--&lt;!&ndash;<h6>Address:</h6>&ndash;&gt;-->
-                <!--<p>Suite 110, 12 South Bridge, <br> Edinburgh, Scotland, <br> EH1 1DD</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="footer-site-contact-phone">-->
-            <!--<div>-->
-                <!--<a href="tel:+447933817651" class="footer-site__link">UK +44-(793)-381-76-51</a>-->
-                <!--&lt;!&ndash;<a href="tel:++37129908515" class="footer-site__link">LV +37-(129)-90-85-15</a>&ndash;&gt;-->
-            <!--</div>-->
-
-        <!--</div>-->
-    <!--</div>-->
     <div class="footer-site-license">
         <div>
-            <a href="condition.html">Terms of service</a>
-            <a href="policy_company.html">Company policy</a>
-            <a href="policy.html">Privacy</a>
-            <a href="kyc.html">KYC</a>
+            <a href="condition.html"  class="lang" data-key-parent="footer" data-key-child="condition">Terms of service</a>
+            <a href="policy_company.html"  class="lang" data-key-parent="footer" data-key-child="policy_company">Company policy</a>
+            <a href="policy.html"  class="lang" data-key-parent="footer" data-key-child="policy">Privacy</a>
+            <a href="kyc.html"  class="lang" data-key-parent="footer" data-key-child="kyc">KYC</a>
         </div>
     </div>
     <div class="footer-site-bottom">
