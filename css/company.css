@@ -321,7 +321,7 @@ body {
   body .content .head #anchor h1 {
     font-size: 50px !important; }
   body .content .spreadsheet {
-    height: 1700px; }
+    height: auto; }
     body .content .spreadsheet table {
       width: 320px !important;
       font-size: 14px !important; }

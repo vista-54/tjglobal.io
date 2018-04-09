@@ -285,6 +285,10 @@ body {
 @media (min-width: 540px) and (max-width: 768px) {
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
+  body header .header-site-content .header-site-content-logo img {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px; }
   body header .header-site-content .header-site-content-media-menu {
     display: block; }
     body header .header-site-content .header-site-content-media-menu button {
@@ -327,8 +331,14 @@ body {
   body header .menu .menu-close {
     margin-top: 0px !important;
     margin-right: -2px !important; }
+  body header .menu a {
+    font-size: 45px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
+  body header .header-site-content .header-site-content-logo img {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px; }
   body header .header-site-content .header-site-content-media-menu {
     margin-right: 2px !important;
     margin-top: 2px !important;
@@ -340,7 +350,7 @@ body {
   body .content .head #anchor h1 {
     font-size: 60px !important; }
   body .content .spreadsheet {
-    height: 3900px; }
+    height: auto; }
     body .content .spreadsheet table {
       width: 320px !important; }
       body .content .spreadsheet table td {

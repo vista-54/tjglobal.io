@@ -549,6 +549,7 @@ body {
           font-size: 17px !important;
           margin-bottom: 20px; }
         body .content .content-container article div.content-container-block div h1 {
-          font-size: 30px; } }
+          font-size: 30px;
+          top: -110%; } }
 
 /*# sourceMappingURL=main.css.map */
