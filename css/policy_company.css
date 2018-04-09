@@ -132,7 +132,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; }
   body .content .about {
-    height: 3000px; }
+    height: auto; }
     body .content .about div {
       margin-top: 140px; }
       body .content .about div p, body .content .about div ul {
@@ -276,7 +276,7 @@ body {
   body .content .about {
     height: auto; }
     body .content .about p {
-      width: auto !important; }
+      width: 730px !important; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
@@ -295,7 +295,7 @@ body {
   body .content .about {
     height: auto; }
     body .content .about p {
-      width: auto !important; }
+      width: 530px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;
@@ -343,7 +343,7 @@ body {
   body .content .about {
     height: auto; }
     body .content .about p {
-      width: auto !important; }
+      width: 300px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;

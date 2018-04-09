@@ -192,7 +192,7 @@ body {
       }
     }
     & .about {
-      height: 3000px;
+      height: auto;
       div{
         margin-top: 140px;
         p, ul {
@@ -435,7 +435,7 @@ body {
       .about{
         height: auto;
         p{
-          width: auto !important;
+          width: 730px !important;
         }
       }
 
@@ -485,7 +485,7 @@ body {
       .about{
         height: auto;
         p{
-          width: auto !important;
+          width: 530px !important;
         }
       }
 
@@ -572,7 +572,7 @@ body {
       .about{
         height: auto;
         p{
-          width: auto !important;
+          width: 300px !important;
         }
       }
 
