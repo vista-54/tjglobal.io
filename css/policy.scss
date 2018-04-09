@@ -192,7 +192,7 @@ body {
       }
     }
     & .about {
-      height: 1500px;
+      height: auto;
       div{
         margin-top: 140px;
         p, ul {
@@ -393,7 +393,7 @@ body {
         }
       }
       .about{
-        height: 1600px !important;
+
         p,ul {
           box-sizing: border-box;
           width: 900px !important;
@@ -440,7 +440,6 @@ body {
         }
       }
       .about{
-        height: 1800px !important;
         p,ul {
           box-sizing: border-box;
           width: 730px !important;
@@ -494,7 +493,6 @@ body {
         }
       }
       .about{
-        height: 2100px !important;
         p,ul {
           box-sizing: border-box;
           width: 530px !important;
@@ -585,7 +583,6 @@ body {
         }
       }
       .about{
-        height: 3300px !important;
         p,ul {
           box-sizing: border-box;
           width: 300px !important;
