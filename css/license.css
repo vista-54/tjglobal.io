@@ -355,6 +355,10 @@ body {
     margin-right: -2px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
+  body header .header-site-content .header-site-content-logo img {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px; }
   body header .header-site-content .header-site-content-media-menu {
     margin-right: 2px !important;
     margin-top: 2px !important;

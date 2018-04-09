@@ -698,6 +698,11 @@ body {
           .main-title {
             font-size: 50px !important;
           }
+          img {
+            position: absolute;
+            left: 50%;
+            margin-left: -125px;
+          }
         }
         .header-site-content-media-menu {
 

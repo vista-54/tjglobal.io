@@ -427,6 +427,8 @@ body {
     body .content article #last_section h1 {
       top: -64% !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
+  body .menu ul li a {
+    font-size: 48px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
   body header .header-site-content .header-site-content-media-menu {
@@ -483,11 +485,15 @@ body {
         body .content .content-container article div.content-container-block div h1 {
           font-size: 30px; } }
 @media (max-width: 540px) {
-  body header .menu .menu-close {
-    margin-top: 0px !important;
-    margin-right: -2px !important; }
+  body .menu ul li a {
+    font-size: 40px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
+  body header .header-site-content .header-site-content-logo img {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 0 !important; }
   body header .header-site-content .header-site-content-media-menu {
     margin-right: 2px !important;
     margin-top: 2px !important;
