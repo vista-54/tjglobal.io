@@ -12,7 +12,7 @@ var arrLang = {
             'policy_company': "Company policy",
             'policy': "Privacy",
             'kyc': "KYC",
-            'allrights': "All rights reserved."
+            'allrights':  "© 2018. TJ GLOBAL™  .The trademark belongs to the company BRAVOPRO CAPITAL LP"
 
         },
         'main': {
@@ -364,7 +364,7 @@ var arrLang = {
             'policy_company':"Политика Компании",
             'policy':"Конфиденциальность",
             'kyc':"KYC",
-            'allrights':"Все права защищены."
+            'allrights':"© 2018. TJ GLOBAL ™. Товарный знак принадлежит компании BRAVOPRO CAPITAL LP."
 
         },
         'main':{
