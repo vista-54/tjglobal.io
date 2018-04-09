@@ -102,7 +102,7 @@ body {
     height: 86px;
     width: 100%;
     position: fixed;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     z-index: 10000;
     .header-site-content {
       .header-site-content-logo {
@@ -110,7 +110,6 @@ body {
         width: 250px;
         img{
           width: 250px;
-          margin-top: 15px;
         }
       }
       .header-site-content-media-menu {
@@ -144,10 +143,10 @@ body {
             //
             //}
           }
-          //li:nth-child(4) > a {
-          //  border-bottom: 3px solid #303030;
-          //  padding-bottom: 7px;
-          //}
+          li:first-child > a {
+            border-bottom: 3px solid #303030;
+            padding-bottom: 7px;
+          }
           li:hover {
             margin-top: 11px;
           }
