@@ -196,6 +196,7 @@ body {
       background-attachment: fixed; }
     body .content .content-container article {
       height: 100vh;
+      overflow: hidden;
       position: relative; }
       body .content .content-container article .content-container-block {
         bottom: 0;
@@ -210,6 +211,7 @@ body {
         overflow: hidden; }
         body .content .content-container article .content-container-block div {
           -webkit-backface-visibility: hidden;
+          -moz-backface-visibility: hidden;
           backface-visibility: hidden;
           bottom: 0;
           display: table;
