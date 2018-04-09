@@ -132,7 +132,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; }
   body .content .about {
-    height: 4900px; }
+    height: auto; }
     body .content .about div {
       margin-top: 140px; }
       body .content .about div p, body .content .about div ul {
@@ -256,10 +256,8 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   body header .header-site-content-media-menu {
     display: none; }
-  body .content {
-    height: 6100px !important; }
-    body .content p, body .content ul {
-      width: 950px !important; } }
+  body .content p, body .content ul {
+    width: 950px !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 75px !important; }
@@ -269,16 +267,14 @@ body {
       font-size: 55px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
-  body .content {
-    height: 6400px !important; }
-    body .content .head #anchor {
-      width: 350px  !important; }
-      body .content .head #anchor h1 {
-        font-size: 35px !important; }
-      body .content .head #anchor a {
-        padding-top: 150px !important; }
-    body .content p, body .content ul {
-      width: auto !important; }
+  body .content .head #anchor {
+    width: 350px  !important; }
+    body .content .head #anchor h1 {
+      font-size: 35px !important; }
+    body .content .head #anchor a {
+      padding-top: 150px !important; }
+  body .content p, body .content ul {
+    width: 730px !important; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
@@ -290,16 +286,14 @@ body {
       font-size: 45px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
-  body .content {
-    height: 7100px !important; }
-    body .content .head #anchor {
-      width: 250px  !important; }
-      body .content .head #anchor h1 {
-        font-size: 35px !important; }
-      body .content .head #anchor a {
-        padding-top: 150px !important; }
-    body .content p, body .content ul {
-      width: auto !important; }
+  body .content .head #anchor {
+    width: 250px  !important; }
+    body .content .head #anchor h1 {
+      font-size: 35px !important; }
+    body .content .head #anchor a {
+      padding-top: 150px !important; }
+  body .content p, body .content ul {
+    width: 530px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;
@@ -347,11 +341,9 @@ body {
       font-size: 40px !important; }
     body .content .head #anchor a {
       padding-top: 215px !important; }
-  body .content .about {
-    height: 9300px !important; }
-    body .content .about p, body .content .about ul {
-      box-sizing: border-box;
-      width: 300px !important; }
+  body .content .about p, body .content .about ul {
+    box-sizing: border-box;
+    width: 300px !important; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;

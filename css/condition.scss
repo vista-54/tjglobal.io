@@ -192,7 +192,7 @@ body {
       }
     }
     & .about {
-      height: 4900px;
+      height: auto;
       div{
         margin-top: 140px;
         p, ul {
@@ -391,7 +391,7 @@ body {
 
       }
 
-      height: 6100px !important;
+      //height: 6100px !important;
       p,ul {
         width: 950px !important;
       }
@@ -437,9 +437,9 @@ body {
 
       }
 
-      height: 6400px !important;
+      //height: 6400px !important;
       p,ul {
-        width: auto !important;
+        width: 730px !important;
       }
 
     }
@@ -490,9 +490,9 @@ body {
 
       }
 
-      height: 7100px !important;
+      //height: 7100px !important;
       p,ul {
-        width: auto !important;
+        width: 530px !important;
       }
 
     }
@@ -580,7 +580,7 @@ body {
         }
       }
       .about{
-        height: 9300px !important;
+        //height: 9300px !important;
         p,ul {
           box-sizing: border-box;
           width: 300px !important;

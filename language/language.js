@@ -107,7 +107,7 @@ var arrLang = {
         'condition': {
             'main-title': 'The Terms of Service',
             'main_content_title': 'The contract offer',
-            'text_1': 'Consulting company "TJ GLOBAL", in the face of the website www.prifinance.com (hereinafter the SELLER), publishes the present contract is a public contract-offer to address both physical and legal persons (hereinafter-the BUYER) of the following:',
+            'text_1': 'Consulting company "TJ GLOBAL", in the face of the website www.tjglobal.org (hereinafter the SELLER), publishes the present contract is a public contract-offer to address both physical and legal persons (hereinafter-the BUYER) of the following:',
             'title_1': '1. The subject of the contrac',
             'text_1_1': '1.1 by this agreement the Seller undertakes to provide buyer the following services (hereinafter the Services):',
             'li_1': 'Tax planning and structuring on an international level;',
@@ -459,7 +459,7 @@ var arrLang = {
         'condition': {
             'main-title': 'УСЛОВИЯ ПОЛЬЗОВАНИЯ СЕРВИСОМ',
             'main_content_title': 'Договор оферты',
-            'text_1': 'Консалтинговая компания ««TJ GLOBAL»», в лице сайта www.prifinance.com (далее ПРОДАВЕЦ), публикует настоящий договор, являющийся публичным договором-офертой в адрес как физических, так и юридических лиц (далее ПОКУПАТЕЛЬ) о нижеследующем:',
+            'text_1': 'Консалтинговая компания ««TJ GLOBAL»», в лице сайта www.tjglobal.org (далее ПРОДАВЕЦ), публикует настоящий договор, являющийся публичным договором-офертой в адрес как физических, так и юридических лиц (далее ПОКУПАТЕЛЬ) о нижеследующем:',
             'title_1': '1. Предмет договора',
             'text_1_1': '1.1 Данным договором Продавец обязуется оказать Покупателю следующие услуги (в дальнейшем Услуги):',
             'li_1': 'Налоговое планирование и структурирование международного уровня;',
