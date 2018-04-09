@@ -820,8 +820,6 @@ body {
     .menu{
       .menu-close{
         font-size:  45px !important;
-        //margin-top: 0px !important;
-        //margin-right: -2px !important;
       }
       ul{
 
@@ -929,6 +927,7 @@ body {
       }
       .content-container {
         .content-container-background{
+          background: green;
           background-attachment: scroll;
         }
         article {
@@ -940,7 +939,7 @@ body {
             div {
               right: initial !important;
               width: 300px !important; position: absolute;
-
+position: absolute;
               h1, p {
                 margin: 0 auto;
               }

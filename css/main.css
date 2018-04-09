@@ -549,6 +549,7 @@ body {
     margin-left: -20px;
     margin-top: 0; }
   body .content .content-container .content-container-background {
+    background: green;
     background-attachment: scroll; }
   body .content .content-container article {
     width: 300px !important;
@@ -559,6 +560,7 @@ body {
       body .content .content-container article div.content-container-block div {
         right: initial !important;
         width: 300px !important;
+        position: absolute;
         position: absolute; }
         body .content .content-container article div.content-container-block div h1, body .content .content-container article div.content-container-block div p {
           margin: 0 auto; }

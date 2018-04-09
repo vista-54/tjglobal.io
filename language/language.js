@@ -765,14 +765,10 @@ var arrLang = {
 
 };
 
-// $(function () {
-// https://www.tjglobal.org/en/
+
 
 $(document).ready(function () {
-    console.log('hi');
 
-    // var lang = $(this).attr('id');
-    // console.log(arrLang[lang].header.logo);
     var lang = navigator.language;
     console.log(lang);
     if (lang.indexOf('ru') !== -1) {
@@ -784,15 +780,7 @@ $(document).ready(function () {
 
 
     $('.lang').each(function (index, element) {
-        // console.log(typeof  arrLang[lang][$(this).attr('key')]);
         $(this).text(arrLang[lang][$(this).attr('data-key-parent')][$(this).attr('data-key-child')]);
-        //
     })
 
 });
-
-// $(function () {
-
-// });
-// });
-// console.log(arrLang.header.logo);
