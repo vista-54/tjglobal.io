@@ -440,15 +440,34 @@ body {
         text-align: justify;
       }
     }
-      footer {
-        .footer-site-contact{
-          .footer-site-contact-phone{
-            div{
-              margin-right: 0!important;
-            }
+    footer {
+      padding-top: 10px !important;
+
+      .footer-site-contact {
+        width: 100% !important;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 70px !important;
+        div {
+          margin: 20px auto;
+        }
+      }
+      .footer-site-license {
+        margin-bottom: 0 !important;
+        div {
+          flex-direction: column;
+          a {
+            margin: 15px auto !important;
           }
         }
       }
+
+      .footer-site-bottom {
+        margin-bottom: 10px !important;
+      }
+    }
 
   }
 }

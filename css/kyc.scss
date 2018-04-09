@@ -610,49 +610,31 @@ body {
       }
     }
     footer {
-      .footer-site-contact{
+      padding-top: 10px !important;
+
+      .footer-site-contact {
         width: 100% !important;
         float: none;
         display: flex;
         flex-direction: column;
         align-content: center;
         margin-bottom: 70px !important;
-        div{
+        div {
           margin: 20px auto;
         }
-        .footer-site-contact-email{
-          width: 42% !important;
-          margin: 0 auto;
-          text-align: center;
-          a{
-            margin-top: 0 !important;
-            margin-left: 0 !important;
-
-          }
-
-        }
-        .footer-site-contact-social{
-          margin-top: 0;
-          margin-bottom: 65px;
-        }
-        .footer-site-contact-phone{
-          width: 42% !important;
-          float: none;
-          margin-bottom: 55px;
-          div{
-            margin-right: 0!important;
-            float: none !important;
-            display: flex;
-            justify-content: center;
-            a{
-              text-align: center !important;
-              float: none !important;
-            }
+      }
+      .footer-site-license {
+        margin-bottom: 0 !important;
+        div {
+          flex-direction: column;
+          a {
+            margin: 15px auto !important;
           }
         }
       }
-      .footer-site-bottom{
-        margin-bottom: 0;
+
+      .footer-site-bottom {
+        margin-bottom: 10px !important;
       }
     }
   }
