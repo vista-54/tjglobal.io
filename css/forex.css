@@ -340,9 +340,8 @@ body {
           text-align: center !important;
           float: none !important; } }
 @media (max-width: 540px) {
-  body header .menu .menu-close {
-    margin-top: 0px !important;
-    margin-right: -2px !important; }
+  body .menu ul li a {
+    font-size: 40px !important; }
   body header .header-site-content .header-site-content-logo .main-title {
     font-size: 50px !important; }
   body header .header-site-content .header-site-content-logo img {

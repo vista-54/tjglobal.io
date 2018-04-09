@@ -587,13 +587,22 @@ body {
 
 @media (max-width: 540px) {
   body {
-    header {
-      .menu {
-        .menu-close {
-          margin-top: 0px !important;
-          margin-right: -2px !important;
-        }
+    .menu{
+      .menu-close{
+        //margin-top: 0px !important;
+        //margin-right: -2px !important;
       }
+      ul{
+
+        li{
+          a{
+            font-size: 40px !important;
+          }
+        }
+
+      }
+    }
+    header {
       .header-site-content {
         .header-site-content-logo {
           .main-title {
