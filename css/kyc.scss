@@ -192,7 +192,7 @@ body {
       }
     }
     & .about {
-      height: 1800px;
+      height: auto;
       div{
         margin-top: 140px;
         p, ul {
@@ -441,7 +441,6 @@ body {
         }
       }
       .about{
-        height: 2000px !important;
         p,ul {
           box-sizing: border-box;
           width: 730px !important;
@@ -495,7 +494,6 @@ body {
         }
       }
       .about{
-        height: 2400px !important;
         p,ul {
           box-sizing: border-box;
           width: 530px !important;
@@ -586,7 +584,6 @@ body {
         }
       }
       .about{
-        height: 3700px !important;
         p,ul {
           box-sizing: border-box;
           width: 300px !important;
