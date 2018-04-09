@@ -177,6 +177,8 @@ body {
     text-align: center; }
     .footer-site .footer-site-logo p {
       color: rgba(232, 230, 229, 0.5); }
+    .footer-site .footer-site-logo img {
+      width: 250px; }
   .footer-site .footer-site-contact {
     margin-bottom: 140px; }
     .footer-site .footer-site-contact div {
