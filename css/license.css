@@ -368,7 +368,7 @@ body {
     body .content .head #anchor h1 {
       font-size: 60px !important; }
   body .content .about {
-    height: 2200px; }
+    height: auto; }
     body .content .about div div table {
       width: 320px !important; }
       body .content .about div div table td {
