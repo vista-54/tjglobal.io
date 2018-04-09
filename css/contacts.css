@@ -437,7 +437,8 @@ body {
     margin-top: 2px !important;
     display: block; }
     body header .header-site-content .header-site-content-media-menu button {
-      font-size: 45px !important; }
+      margin-top: 15px !important;
+      font-size: 40px !important; }
   body header .header-site-content .header-site-content-menu {
     display: none; }
   body .content .head #anchor {
