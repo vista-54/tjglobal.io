@@ -104,7 +104,7 @@ body {
         display: block;
         margin-top: 15px;
         transition: .3s; }
-      body .header-site .header-site-content .header-site-content-menu ul li:first-child > a {
+      body .header-site .header-site-content .header-site-content-menu ul li:nth-child(2) > a {
         border-bottom: 3px solid #303030;
         padding-bottom: 7px; }
       body .header-site .header-site-content .header-site-content-menu ul li:hover {

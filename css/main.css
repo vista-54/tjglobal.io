@@ -230,6 +230,9 @@ body {
           body .content .content-container article .content-container-block div a {
             padding: 5px;
             border: 2px solid #ffffff; }
+          body .content .content-container article .content-container-block div a:hover {
+            background: #ff3750;
+            border: 2px solid #ff3750; }
       body .content .content-container article .fourth {
         position: static; }
         body .content .content-container article .fourth div {
