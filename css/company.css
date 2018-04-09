@@ -152,7 +152,7 @@ body {
   body .content .spreadsheet > p {
     width: auto;
     padding: 0 30px;
-    text-align: justify;
+    text-align: center;
     font-family: "Relative Bold", sans-serif;
     font-size: 16px;
     font-weight: 500;
