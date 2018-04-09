@@ -333,6 +333,8 @@ body {
     display: none; }
   body .content .head #anchor h1 {
     font-size: 50px !important; }
+  body .content .background {
+    background-attachment: scroll !important; }
   body .content .spreadsheet {
     height: auto; }
     body .content .spreadsheet table {

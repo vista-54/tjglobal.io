@@ -370,6 +370,8 @@ body {
     width: auto !important; }
     body .content .head #anchor h1 {
       font-size: 60px !important; }
+  body .content .background {
+    background-attachment: scroll !important; }
   body .content .about {
     height: auto; }
     body .content .about div div table {

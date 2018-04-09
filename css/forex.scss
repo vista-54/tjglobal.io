@@ -611,6 +611,9 @@ body {
           }
         }
       }
+      .background{
+        background-attachment: scroll !important;
+      }
       .about{
         height: 500px;
         table{

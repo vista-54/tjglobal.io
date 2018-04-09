@@ -362,6 +362,8 @@ body {
     top: 8% !important; }
     body .content .head #anchor h1 {
       font-size: 50px !important; }
+  body .content .background {
+    background-attachment: scroll !important; }
   body .content .about {
     height: 500px; }
     body .content .about table {

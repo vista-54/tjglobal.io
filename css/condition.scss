@@ -594,8 +594,10 @@ body {
           }
         }
       }
+      .background{
+        background-attachment: scroll !important;
+      }
       .about{
-        //height: 9300px !important;
         p,ul {
           box-sizing: border-box;
           width: 300px !important;

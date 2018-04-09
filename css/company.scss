@@ -574,6 +574,9 @@ body {
           }
         }
       }
+      .background{
+        background-attachment: scroll !important;
+      }
       .spreadsheet{
         height: auto;
         table{

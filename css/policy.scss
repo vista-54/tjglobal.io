@@ -596,6 +596,9 @@ body {
           }
         }
       }
+      .background{
+        background-attachment: scroll !important;
+      }
       .about{
         p,ul {
           box-sizing: border-box;

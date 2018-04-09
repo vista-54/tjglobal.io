@@ -641,6 +641,9 @@ body {
           }
         }
       }
+      .background{
+        background-attachment: scroll !important;
+      }
       .about {
         div {
           margin: 70px auto;

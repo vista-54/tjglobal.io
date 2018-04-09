@@ -353,6 +353,8 @@ body {
       font-size: 40px !important; }
     body .content .head #anchor a {
       padding-top: 170px !important; }
+  body .content .background {
+    background-attachment: scroll !important; }
   body .content .about p, body .content .about ul {
     box-sizing: border-box;
     width: 300px !important; }
