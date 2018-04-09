@@ -487,6 +487,8 @@ body {
         body .content .content-container article div.content-container-block div h1 {
           font-size: 30px; } }
 @media (max-width: 540px) {
+  body .menu .menu-close {
+    font-size: 45px !important; }
   body .menu ul li a {
     font-size: 40px !important; }
   body header {

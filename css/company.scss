@@ -213,7 +213,22 @@ body {
             }
           }
         }
+        p{
+
+        }
       }
+    }
+    .spreadsheet>p{
+      width: auto;
+      padding:0 30px;
+      text-align: justify;
+      font: {
+        family: "Relative Bold", sans-serif;
+        size: 16px;
+        weight: 500;
+      }
+      letter-spacing: 1px;
+      line-height: 30px;
     }
 
   }
