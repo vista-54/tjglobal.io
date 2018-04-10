@@ -156,7 +156,8 @@ body {
       top: -65%;
       color: white;
       width: 100%;
-      height: 40px; }
+      height: 40px;
+      text-transform: uppercase; }
     body .content .content-container .content-container-background {
       height: 100vh;
       width: 100%;
