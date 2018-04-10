@@ -587,8 +587,8 @@ body {
   body {
     .menu{
       .menu-close{
-        //margin-top: 0px !important;
-        //margin-right: -2px !important;
+        font-size: 40px !important;
+        right: 0 !important;
       }
       ul{
 
@@ -607,9 +607,11 @@ body {
             font-size: 50px !important;
           }
           img {
+            width: 200px !important;
             position: absolute;
             left: 50%;
-            margin-left: -125px;
+            margin-left: -100px;
+            margin-top: 0 !important;
           }
         }
         .header-site-content-media-menu {

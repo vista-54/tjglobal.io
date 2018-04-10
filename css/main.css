@@ -489,7 +489,8 @@ body {
           font-size: 30px; } }
 @media (max-width: 540px) {
   body .menu .menu-close {
-    font-size: 45px !important; }
+    font-size: 40px !important;
+    right: 0 !important; }
   body .menu ul li a {
     font-size: 40px !important; }
   body header {
@@ -497,17 +498,19 @@ body {
     body header .header-site-content .header-site-content-logo .main-title {
       font-size: 50px !important; }
     body header .header-site-content .header-site-content-logo img {
+      width: 200px !important;
       position: absolute;
       left: 50%;
-      margin-left: -125px;
+      margin-left: -100px;
       margin-top: 0 !important; }
     body header .header-site-content .header-site-content-media-menu {
+      right: 0 !important;
       margin-right: 2px !important;
       margin-top: 2px !important;
       display: block; }
       body header .header-site-content .header-site-content-media-menu button {
         margin-top: 15px !important;
-        font-size: 40px !important; }
+        font-size: 35px !important; }
     body header .header-site-content .header-site-content-menu {
       display: none; }
   body footer {
