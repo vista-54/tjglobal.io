@@ -509,7 +509,9 @@ body {
     body header .header-site-content .header-site-content-media-menu {
       position: absolute !important;
       right: 0 !important;
-      float: right !important; }
+      float: right !important;
+      margin-top: 0 !important;
+      margin-right: 0 !important; }
       body header .header-site-content .header-site-content-media-menu button {
         margin-top: 15px !important;
         font-size: 35px !important; }
