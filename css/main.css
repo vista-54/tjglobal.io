@@ -489,9 +489,10 @@ body {
           font-size: 30px; } }
 @media (max-width: 540px) {
   body .menu .menu-close {
+    position: absolute !important;
     font-size: 30px !important;
     right: 0 !important;
-    margin-right: -30px !important; }
+    float: right !important; }
   body .menu ul li a {
     font-size: 40px !important; }
   body header {
