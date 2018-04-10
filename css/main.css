@@ -490,9 +490,10 @@ body {
 @media (max-width: 540px) {
   body .menu .menu-close {
     font-size: 30px !important;
-    right: 0 !important; }
+    right: 0 !important;
+    margin-right: -30px !important; }
   body .menu ul li a {
-    font-size: 30px !important; }
+    font-size: 40px !important; }
   body header {
     background: rgba(0, 0, 0, 0.58) !important; }
     body header .header-site-content .header-site-content-logo .main-title {
