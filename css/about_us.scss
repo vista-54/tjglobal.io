@@ -107,7 +107,7 @@ body {
       .header-site-content-logo {
         float: left;
         width: 250px;
-        img{
+        img {
           width: 250px;
         }
       }
@@ -118,7 +118,7 @@ body {
         float: right;
         margin-top: 15px;
         margin-right: 30px;
-        .header-site-content-media-menu-button{
+        .header-site-content-media-menu-button {
           border: none;
           background: transparent;
           font-size: 55px;
@@ -230,7 +230,7 @@ body {
     p {
       color: rgba(232, 230, 229, .5);
     }
-    img{
+    img {
       width: 250px;
     }
   }
@@ -493,15 +493,17 @@ body {
 }
 
 @media (max-width: 540px) {
-  .menu{
-    .menu-close{
-      font-size: 40px !important;
+  .menu {
+    .menu-close {
+      position: absolute !important;
+      font-size: 30px !important;
       right: 0 !important;
+      float: right !important;
     }
-    ul{
+    ul {
 
-      li{
-        a{
+      li {
+        a {
           font-size: 40px !important;
         }
       }
@@ -524,37 +526,41 @@ body {
           }
         }
         .header-site-content-media-menu {
-
-          margin-right: 2px !important;
-          margin-top: 2px !important;
-          display: block;
-          button{
+          position: absolute !important;
+          right: 0 !important;
+          float: right !important;
+          margin-top: 0 !important;
+          margin-right: 0 !important;
+          button {
             margin-top: 15px !important;
-            font-size: 40px !important;
+            font-size: 35px !important;
           }
+
         }
         .header-site-content-menu {
           display: none;
         }
       }
     }
-    .content{
-      .head{
-        #anchor{
+    .content {
+      .head {
+        #anchor {
           top: 20% !important;
           width: auto !important;
-          h1{
-            font-size: 50px!important;
+          h1 {
+            font-size: 50px !important;
           }
         }
       }
-      .background{
-          background-attachment: scroll !important;
+      .background {
+        background-attachment: scroll !important;
       }
-      .about{
+      .about {
         height: 1000px;
 
-        p{width: 320px!important;}
+        p {
+          width: 320px !important;
+        }
 
       }
     }
