@@ -468,6 +468,7 @@ body {
           flex-wrap: wrap;
           margin: 0 auto; }
           body .content .about div div form div input {
+            box-sizing: border-box;
             width: 300px !important; }
         body .content .about div div form textarea {
           width: 300px !important;

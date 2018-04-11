@@ -621,9 +621,11 @@ body {
 
       }
       .spreadsheet>p{
-        text-align: justify;
-        width: 300px!important;
-        margin: auto;
+        text-align: center;
+        padding: 0 !important;
+        margin: auto !important;
+        width: 280px!important;
+
       }
     }
     footer {

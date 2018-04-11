@@ -373,9 +373,10 @@ body {
       body .content .spreadsheet table td {
         padding: 0 !important; }
   body .content .spreadsheet > p {
-    text-align: justify;
-    width: 300px !important;
-    margin: auto; }
+    text-align: center;
+    padding: 0 !important;
+    margin: auto !important;
+    width: 280px !important; }
   body footer {
     padding-top: 10px !important; }
     body footer .footer-site-contact {
