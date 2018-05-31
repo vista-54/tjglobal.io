@@ -773,7 +773,7 @@ $(document).ready(function () {
 
     var lang = navigator.language;
     console.log(lang);
-    if (lang.indexOf('ru') !== -1) {
+    if (lang.indexOf('ru') !== -1 || lang.indexOf('kz') !== -1) {
         lang = "ru-RU";
     }
     else {
