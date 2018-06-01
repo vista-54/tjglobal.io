@@ -220,8 +220,7 @@ body {
           text-decoration: underline; }
       body .content .about div div:last-child {
         flex-direction: row;
-        height: 200px;
-        align-self: center;
+        height: auto;
         margin-bottom: 50px; }
         body .content .about div div:last-child div:first-child {
           width: 60px;
@@ -369,6 +368,8 @@ body {
         body .content .about div div form textarea {
           width: 700px !important;
           margin: 0 auto; }
+      body .content .about div div:last-child {
+        align-self: center; }
   body footer .footer-site-contact .footer-site-contact-phone div {
     margin-right: 0 !important; } }
 @media (min-width: 540px) and (max-width: 768px) {
@@ -397,6 +398,8 @@ body {
         body .content .about div div form textarea {
           width: 530px !important;
           margin: 0 auto; }
+      body .content .about div div:last-child {
+        align-self: center; }
   body footer .footer-site-contact {
     width: 100% !important;
     float: none;
@@ -475,6 +478,8 @@ body {
           margin: 0 auto; }
         body .content .about div div form input {
           width: 300px !important; }
+      body .content .about div div:last-child {
+        align-self: center; }
   body footer {
     padding-top: 10px !important; }
     body footer .footer-site-contact {
