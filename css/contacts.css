@@ -211,8 +211,9 @@ body {
           line-height: 25px;
           margin-bottom: 0px; }
         body .content .about div div a {
+          padding-top: 20px;
           line-height: 1px;
-          margin-bottom: 40px;
+          margin-bottom: 30px;
           font-size: 25px;
           font-weight: 600;
           color: #ff3750; }
