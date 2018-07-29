@@ -12,7 +12,7 @@ var arrLang = {
             'policy_company': "Company policy",
             'policy': "Privacy",
             'kyc': "KYC",
-            'allrights': "© 2018. TJ GLOBAL™  .The trademark belongs to the company Bravo Capital LTD and BRAVO CAPITAL EUROPE OU"
+            'allrights': "© 2018. TJ GLOBAL™  .The trademark belongs to the company BRAVO CAPITAL LTD and BRAVO CAPITAL EUROPE OU"
 
         },
         'main': {
@@ -395,7 +395,7 @@ var arrLang = {
             'policy_company': "Политика Компании",
             'policy': "Конфиденциальность",
             'kyc': "KYC",
-            'allrights': "© 2018. TJ GLOBAL ™. Товарный знак принадлежит компании Bravo Capital LTD и BRAVO CAPITAL EUROPE OU."
+            'allrights': "© 2018. TJ GLOBAL ™. Товарный знак принадлежит компании BRAVO CAPITAL LTD и BRAVO CAPITAL EUROPE OU."
 
         },
         'main': {
