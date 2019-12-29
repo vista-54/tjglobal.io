@@ -150,7 +150,8 @@ body {
             margin-top: 8%; }
   body .content .content-container {
     height: 100vh;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
     body .content .content-container h1 {
       position: absolute;
       top: -65%;

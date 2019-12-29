@@ -192,11 +192,11 @@ body {
       }
     }
     & .about {
-      height: 1000px;
+      height: auto;
       div {
         margin-top: 80px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
         justify-content: space-around;
         div {
           margin-top: 0px;
@@ -208,6 +208,9 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            width: 800px;
+            margin: 0 auto;
+
             div {
               width: 800px;
               dispaly: flex;
@@ -271,43 +274,51 @@ body {
               vertical-align: center;
             }
           }
-          p, h6, a {
-            display: block;
-            //width: 1000px;
-            //margin: 50px auto;
-            text-align: center;
-            font: {
-              family: "Relative Bold", sans-serif;
-              size: 16px;
-              weight: 500;
+          section{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            p, h6, a {
+              display: block;
+              //width: 1000px;
+              //margin: 50px auto;
+              text-align: center;
+              font: {
+                family: "Relative Bold", sans-serif;
+                size: 16px;
+                weight: 500;
+              }
+              letter-spacing: 1px;
+              line-height: 30px;
+              text-decoration: none;
+              color: #303030;
             }
-            letter-spacing: 1px;
-            line-height: 30px;
-            text-decoration: none;
-            color: #303030;
-          }
-          p {
-            line-height: 25px;
-            margin-bottom: 0px;
-          }
-          a {
-            line-height: 1px;
-            margin-bottom: 40px;
-            font: {
-              size: 25px;
-              weight: 600;
+            p {
+              line-height: 25px;
+              margin-bottom: 0px;
             }
-            color: #ff3750;
+            a {
+              padding-top: 20px;
+              line-height: 1px;
+              margin-bottom: 30px;
+
+              font: {
+                size: 16px;
+                weight: 500;
+              }
+              color: #303030;
+            }
+            a:hover {
+              text-decoration: underline;
+            }
           }
-          a:hover {
-            text-decoration: underline;
-          }
+
         }
         div:last-child{
 
           flex-direction: row;
-          height: 200px;
-          align-self: center;
+          height: auto;
+          //align-self: center;
           margin-bottom: 50px;
           div:first-child{
             width: 60px;
@@ -318,8 +329,10 @@ body {
             }
           }
           div:last-child{
-            flex-direction: column;
-            justify-content: flex-start;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: wrap;
             p, a{
               text-align: justify;
             }
@@ -545,9 +558,9 @@ body {
       .about {
         height: auto;
         div {
-          flex-direction: column-reverse !important;
+          //flex-direction: column-reverse !important;
           div {
-            flex-direction: column !important;
+            //flex-direction: column !important;
 
             form {
               div {
@@ -566,6 +579,9 @@ body {
                 margin: 0 auto;
               }
             }
+          }
+          div:last-child{
+            align-self: center;
           }
         }
 
@@ -615,11 +631,12 @@ body {
       .about {
         height: auto;
         div {
-          flex-direction: column-reverse !important;
+          //flex-direction: column-reverse !important;
           div {
-            flex-direction: column !important;
+            //flex-direction: column !important;
 
             form {
+              width: 530px;
               div {
 
                 width: 530px !important;
@@ -635,6 +652,12 @@ body {
                 width: 530px !important;
                 margin: 0 auto;
               }
+            }
+          }
+          div:last-child{
+            align-self: center;
+            section{
+              margin: 0 10px;
             }
           }
         }
@@ -755,6 +778,7 @@ body {
             flex-direction: column !important;
 
             form {
+              width: 300px;
               div {
 
                 width: 300px !important;
@@ -775,6 +799,9 @@ body {
                 width: 300px !important;
               }
             }
+          }
+          div:last-child{
+            align-self: center;
           }
         }
 
